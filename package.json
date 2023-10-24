@@ -11,7 +11,7 @@
     },
     "keywords": [],
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
         "arri": "^0.2.3",
         "arri-validate": "^0.2.3"
