@@ -1,6 +1,7 @@
 import { defineConfig } from "arri";
 
 export default defineConfig({
-    entry: "main.ts",
+    entry: "app.ts",
     port: 3000,
+    clientGenerators: [],
 });
