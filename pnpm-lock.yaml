@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   arri:
-    specifier: ^0.7.0
-    version: 0.7.0(listhen@1.5.5)
+    specifier: ^0.9.0
+    version: 0.9.0(listhen@1.5.5)
   arri-validate:
-    specifier: ^0.7.0
-    version: 0.7.0
+    specifier: ^0.9.0
+    version: 0.9.0
 
 devDependencies:
   typescript:
@@ -415,57 +415,57 @@ packages:
     resolution: {integrity: sha512-Of/R0wqp83cgHozfIYLbBMnej79U/SVGOOyuB3VVFv1NRM/PSFMK12x9KVtiYzJqmnU5WR2qp0Z5rHb7sWGnFQ==}
     dev: false
 
-  /arri-client@0.7.0:
-    resolution: {integrity: sha512-qZrtFVg6y56ERe+eu2UqOtiLYqUa5d5rYUnq4BecSV0UR94tKvD5oa2x1gAbTomuYw7bvnPIdiuzTvz6fi6qAA==}
+  /arri-client@0.9.0:
+    resolution: {integrity: sha512-YlHxuHDOMzi09jkRhBu8nOWfrcsqTg6iINRBTe+K7ruHfhCOwZG5nfKQH0t2K+1+Wbyo+GX82TXLh0LTL0VntA==}
     dependencies:
-      arri-validate: 0.7.0
+      arri-validate: 0.9.0
       ofetch: 1.3.3
     dev: false
 
-  /arri-codegen-dart@0.7.0:
-    resolution: {integrity: sha512-g/cjsCwooGAPHqf82RIc81b3KUXBbYWkdAi8WKOJQrVOxc7UZNSLiDf5A7bVpWjD76arEUzN6PTk21XFBcJSsQ==}
+  /arri-codegen-dart@0.9.0:
+    resolution: {integrity: sha512-hrCEXhIJj9sJgy2tIt8cuimSt9M8w8RhKw7WyDOWuP9PYZOOa3OCIoN6s5jTBAW0SpAxmeX2qE49ikDF4cOr7w==}
     dependencies:
-      arri-codegen-utils: 0.7.0
-      arri-validate: 0.7.0
+      arri-codegen-utils: 0.9.0
+      arri-validate: 0.9.0
     dev: false
 
-  /arri-codegen-ts@0.7.0:
-    resolution: {integrity: sha512-OnKkUnL7CGYrz6JnpGrl2ScNdXTvMTmQo5jp93VzsY9Qrxy9NXeaJpUR/IiEQRmnrCwwIX5q1HfFZ3dlyLDnpA==}
+  /arri-codegen-ts@0.9.0:
+    resolution: {integrity: sha512-DTBYIN+C6HeMXNu+3NZknAsjBiOzuGXYStVCQSehikBgYMag6xA1bwJZ3X2fAtfbJov+Jbm6WXfUkQPA4Yn3Ag==}
     dependencies:
       ajv: 8.12.0
-      arri-client: 0.7.0
-      arri-codegen-utils: 0.7.0
-      arri-validate: 0.7.0
+      arri-client: 0.9.0
+      arri-codegen-utils: 0.9.0
+      arri-validate: 0.9.0
       prettier: 3.0.3
     dev: false
 
-  /arri-codegen-utils@0.7.0:
-    resolution: {integrity: sha512-f2FsLRoy5MQz3I1lJ83x9CGUnspncAehNb3gStRpb+3OS/woF0DnELzKoaoEfnmjqJYgHxyiKFktYxE5C04sHQ==}
+  /arri-codegen-utils@0.9.0:
+    resolution: {integrity: sha512-Wi9iSUWcOoFBirigWfJdrqpcCb0ceq9b/552n0m6xBXirDyzvmSXvqJY569I6QqR7h8qvHeMo9CJVmW7/5GQUA==}
     dependencies:
-      arri-validate: 0.7.0
-      jtd-utils: 0.7.0
+      arri-validate: 0.9.0
+      jtd-utils: 0.9.0
       scule: 1.0.0
     dev: false
 
-  /arri-validate@0.7.0:
-    resolution: {integrity: sha512-C0LV+uttOQDHstcS6fGx2QN3nzRe0avoD20gp5B03lkr1cwXjpl1pwFORuskpBan68Fcl/QsKMpCrP40QEJjeQ==}
+  /arri-validate@0.9.0:
+    resolution: {integrity: sha512-jeUk7NUQKZ7cALvEBqy3izs/w1QSGWegnaN6P0Krpe6NZ2IhcVqQhbhG8mulxVNbDNeLFB8oZPvFkpX308vzhA==}
     dependencies:
       ajv: 8.12.0
-      jtd-utils: 0.7.0
+      jtd-utils: 0.9.0
       scule: 1.0.0
       uncrypto: 0.1.3
     dev: false
 
-  /arri@0.7.0(listhen@1.5.5):
-    resolution: {integrity: sha512-aihkhhUdZ4PwhGm85RoRLVsSt0A8HesxlpDMvKLi/ZYOOSGrpfOmIabRXU0afSs7X41tqyvedeZvP1edxE7f3A==}
+  /arri@0.9.0(listhen@1.5.5):
+    resolution: {integrity: sha512-SfaNOAEoA2QQgUkj3xO/7poN0I/GWTZ7ZUEX8w4BrC+kPSsRP4Zh5LWx6pCR7KWQAm05NlK7z3aDUq9EwI/qBg==}
     hasBin: true
     peerDependencies:
       listhen: 1.x
     dependencies:
-      arri-codegen-dart: 0.7.0
-      arri-codegen-ts: 0.7.0
-      arri-codegen-utils: 0.7.0
-      arri-validate: 0.7.0
+      arri-codegen-dart: 0.9.0
+      arri-codegen-ts: 0.9.0
+      arri-codegen-utils: 0.9.0
+      arri-validate: 0.9.0
       c12: 1.5.1
       chokidar: 3.5.3
       citty: 0.1.4
@@ -851,8 +851,8 @@ packages:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
     dev: false
 
-  /jtd-utils@0.7.0:
-    resolution: {integrity: sha512-mXwbMCq+0QiJhPGUSlskXNKEwbUyqXsAdwHEg3YypyGGiuWEt5uUvFX/tFVENyXK8KxkUMjkLJlaSpXDEvZIdw==}
+  /jtd-utils@0.9.0:
+    resolution: {integrity: sha512-NiTa7ia0TCLXloQ4TD4MzxmcTtLIktSl3+kTuku/WFkLxTbhMYT70LlWXhZiqFQQxPbNehh3yhLnkl0EY7Wnfw==}
     dev: false
 
   /listhen@1.5.5:
