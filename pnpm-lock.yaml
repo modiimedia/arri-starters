@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   arri:
-    specifier: ^0.12.0
-    version: 0.12.0(listhen@1.5.5)
+    specifier: ^0.12.6
+    version: 0.12.6(listhen@1.5.5)
   arri-validate:
-    specifier: ^0.12.0
-    version: 0.12.0
+    specifier: ^0.12.6
+    version: 0.12.6
 
 devDependencies:
   typescript:
@@ -415,57 +415,57 @@ packages:
     resolution: {integrity: sha512-Of/R0wqp83cgHozfIYLbBMnej79U/SVGOOyuB3VVFv1NRM/PSFMK12x9KVtiYzJqmnU5WR2qp0Z5rHb7sWGnFQ==}
     dev: false
 
-  /arri-client@0.12.0:
-    resolution: {integrity: sha512-eOCE8rLrKAup28EAOT0c56lfFML61zWZ1kqxPXqD51T3JdkQn3BQumhlI7qIaLX2lzhr+Q+0JOut3Bbz3Oz5vQ==}
+  /arri-client@0.12.6:
+    resolution: {integrity: sha512-31OvLqSDORl9AirHKiZmLxOSApIog9Dgmn3HahelpIhnlQsj167ZAvS3Q0257y+HAwIGCgrxeeCT6wOTdDmZxg==}
     dependencies:
-      arri-validate: 0.12.0
+      arri-validate: 0.12.6
       ofetch: 1.3.3
     dev: false
 
-  /arri-codegen-dart@0.12.0:
-    resolution: {integrity: sha512-LYy771eDg0smN0A0vLA30y7nT068kjCtlcwIjTT0WN3P4s/AmTZVvWRys6jdizvmHCzc9qiAb4LoBQlp81Ba+Q==}
+  /arri-codegen-dart@0.12.6:
+    resolution: {integrity: sha512-d+/EKwNGq4UWyHe4DSzzIVqPEBQI+ruG71HsoWNmfMkAshegLX1+QbU1nj5od7DOMuJny/FsEA+e1W8DmEjAnw==}
     dependencies:
-      arri-codegen-utils: 0.12.0
-      arri-validate: 0.12.0
+      arri-codegen-utils: 0.12.6
+      arri-validate: 0.12.6
     dev: false
 
-  /arri-codegen-ts@0.12.0:
-    resolution: {integrity: sha512-VpzVix8n9CY0jD0eHl38tCLm5eL2IlakibdLRkRhIyHpf5YdK8lXFvTs0aKipYfMsiHjKfea0UYzhfYs+eTkRA==}
+  /arri-codegen-ts@0.12.6:
+    resolution: {integrity: sha512-pD222hxXpF5INPwubJh7WWk2ee9hg+Yn5D7UO3Wgxu1wVYD24DFL/SyuFnFDRh9waVY0GN1RZm4PVqsRfLkT5A==}
     dependencies:
       ajv: 8.12.0
-      arri-client: 0.12.0
-      arri-codegen-utils: 0.12.0
-      arri-validate: 0.12.0
+      arri-client: 0.12.6
+      arri-codegen-utils: 0.12.6
+      arri-validate: 0.12.6
       prettier: 3.0.3
     dev: false
 
-  /arri-codegen-utils@0.12.0:
-    resolution: {integrity: sha512-5Xv8E1dX2+JD9u2vjocC48ZPQD3qkvonS434A6nI+Xm6Wsq42BPrmQyGV/L55S4MLYg+pY21ATH28WK0C3tt4w==}
+  /arri-codegen-utils@0.12.6:
+    resolution: {integrity: sha512-lrvseM7BZkDYDYkcLFRJVLP+bXqDJNWqRYlFOZ8PLzsKV/vcfx4/wKUzDAkHi1H/ewS95Nyi+8Tt178r+BYjmQ==}
     dependencies:
-      arri-validate: 0.12.0
-      jtd-utils: 0.12.0
+      arri-validate: 0.12.6
+      jtd-utils: 0.12.6
       scule: 1.0.0
     dev: false
 
-  /arri-validate@0.12.0:
-    resolution: {integrity: sha512-HoYHS4uVSlEBQ8hejjOT40+24StPwxc+uj84MWnLvlWJuWDgiQeVWsN/Tf58/WBov13+dgqHeT9GYm4p6JtUyQ==}
+  /arri-validate@0.12.6:
+    resolution: {integrity: sha512-8MEK+42uKqdQE9fPPEsFioa5fmASebEwlpaLFY2kp5cUiPN6tfcV9ESLKi4HtMsOnaASX+dGrlKoYub1q87YCA==}
     dependencies:
       ajv: 8.12.0
-      jtd-utils: 0.12.0
+      jtd-utils: 0.12.6
       scule: 1.0.0
       uncrypto: 0.1.3
     dev: false
 
-  /arri@0.12.0(listhen@1.5.5):
-    resolution: {integrity: sha512-D3PAyz/Gw75i2NCTDiYNAEYIpmLD0pUi7i/IJ4eVcwKy0PcKOzs9UwPvWdM4wOI1EAA1CbABIybWLA6xtletYA==}
+  /arri@0.12.6(listhen@1.5.5):
+    resolution: {integrity: sha512-GGdF0PzQVfDq/AJgEEUIAxLHmPNpc54D3M/SD4vJj3S9farAMMmNZJiMPXUSShFHOZJywQNSR89P3umceq0l1w==}
     hasBin: true
     peerDependencies:
       listhen: 1.x
     dependencies:
-      arri-codegen-dart: 0.12.0
-      arri-codegen-ts: 0.12.0
-      arri-codegen-utils: 0.12.0
-      arri-validate: 0.12.0
+      arri-codegen-dart: 0.12.6
+      arri-codegen-ts: 0.12.6
+      arri-codegen-utils: 0.12.6
+      arri-validate: 0.12.6
       c12: 1.5.1
       chokidar: 3.5.3
       citty: 0.1.4
@@ -851,8 +851,8 @@ packages:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
     dev: false
 
-  /jtd-utils@0.12.0:
-    resolution: {integrity: sha512-833XUIolwmOng7/rfu1KfZS5+XI0ZikQdJuLiyqMdxY9lGC9Rdk7E7j/RP4xNVNFs8DR5Mmg5cpC8SswCOHI+g==}
+  /jtd-utils@0.12.6:
+    resolution: {integrity: sha512-fEosGciA2u/yKx0QYCZ4JWKrxqP7nco1y0muXv7SJY0FWXX4LkGAEvqI7kZTDhbkVur6VomtlRIjN7JD57HUPA==}
     dev: false
 
   /listhen@1.5.5:
