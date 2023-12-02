@@ -13,6 +13,9 @@ dependencies:
     version: 0.16.3
 
 devDependencies:
+  prettier:
+    specifier: ^3.1.0
+    version: 3.1.0
   typescript:
     specifier: ^5.3.2
     version: 5.3.2
@@ -1048,7 +1051,6 @@ packages:
     resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
     engines: {node: '>=14'}
     hasBin: true
-    dev: false
 
   /punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
