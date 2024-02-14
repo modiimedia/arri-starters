@@ -2,5 +2,13 @@
     "tabWidth": 4,
     "semi": true,
     "endOfLine": "lf",
-    "trailingComma": "all"
+    "trailingComma": "all",
+    "overrides": [
+        {
+            "files": ["*.json", "*.yaml"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
 }
