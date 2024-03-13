@@ -13,11 +13,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "arri": "^0.27.0",
-    "arri-validate": "^0.27.0"
+    "arri": "^0.30.0",
+    "arri-validate": "^0.30.0"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   }
 }
