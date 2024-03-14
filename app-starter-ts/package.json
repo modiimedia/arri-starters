@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "",
-  "main": "index.js",
+  "main": ".output/server.mjs",
   "scripts": {
     "dev": "arri dev",
     "build": "arri build",
@@ -13,11 +13,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "arri": "^0.30.0",
-    "arri-validate": "^0.30.0"
+    "arri": "^0.31.0",
+    "arri-validate": "^0.31.0"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
-    "typescript": "^5.4.2"
+    "typescript": "^5.3.3"
   }
 }
