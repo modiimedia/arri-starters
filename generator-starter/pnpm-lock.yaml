@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   arri-codegen-utils:
-    specifier: ^0.32.1
-    version: 0.32.1
+    specifier: ^0.32.2
+    version: 0.32.2
 
 devDependencies:
   '@types/node':
@@ -779,18 +779,18 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /arri-codegen-utils@0.32.1:
-    resolution: {integrity: sha512-TzgOftfjwLWRC7dsPbZhy3leWxPSIYFULsV79rJwDEA/TdP4rf9ksEemnXJxkKebMZRacJy82x8psV4+Il8/Ug==}
+  /arri-codegen-utils@0.32.2:
+    resolution: {integrity: sha512-sD3CSdJwke1qaeC5Ule3qHQWXgeZYQ8fDIGZjQG0+U1sAkXImO4haL4hGL23FsZL9k3eOJ/6V1iY92pALsfy3A==}
     dependencies:
-      arri-validate: 0.32.1
-      jtd-utils: 0.32.1
+      arri-validate: 0.32.2
+      jtd-utils: 0.32.2
       scule: 1.3.0
     dev: false
 
-  /arri-validate@0.32.1:
-    resolution: {integrity: sha512-z+V/6dX47gjZwgDlajWhZzVBm5l5Iw2ktELwltgdLGeDjE9yFO/8FpsZ3uRB+hME/RbVaYZNzKcLABq2BBOaWg==}
+  /arri-validate@0.32.2:
+    resolution: {integrity: sha512-Ly/w+Kal3Fx5AxAzBrWwq26OjZddDS4U+8+X8otvipWzZgPJRkgfqNW22cqsdVO7/elvgcFP8ALOG95Qt/MJ5A==}
     dependencies:
-      jtd-utils: 0.32.1
+      jtd-utils: 0.32.2
       scule: 1.3.0
       uncrypto: 0.1.3
     dev: false
@@ -1438,8 +1438,8 @@ packages:
       graceful-fs: 4.2.11
     dev: true
 
-  /jtd-utils@0.32.1:
-    resolution: {integrity: sha512-EfBgGyfiiUkT38ycRYXsMURCGakrnFBA1Zl7g4p89Cm3wvnDxLiniHVgMn6sgaOSJjfcSrnfnOMj+1S9Ns6WcQ==}
+  /jtd-utils@0.32.2:
+    resolution: {integrity: sha512-1IFYpVrE1ObpOZqJ4APQtsoXGzQjitNZDzZySEUCLVp5GwKTudWb7fOIrWsJGEkxJ5JJdXnV2K22928JH8N3xQ==}
     dev: false
 
   /lilconfig@3.1.1:
