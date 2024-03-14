@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.32.0
     version: 0.32.0
   arri-validate:
-    specifier: ^0.32.0
-    version: 0.32.0
+    specifier: ^0.32.1
+    version: 0.32.1
 
 devDependencies:
   prettier:
@@ -501,6 +501,14 @@ packages:
       uncrypto: 0.1.3
     dev: false
 
+  /arri-validate@0.32.1:
+    resolution: {integrity: sha512-z+V/6dX47gjZwgDlajWhZzVBm5l5Iw2ktELwltgdLGeDjE9yFO/8FpsZ3uRB+hME/RbVaYZNzKcLABq2BBOaWg==}
+    dependencies:
+      jtd-utils: 0.32.1
+      scule: 1.3.0
+      uncrypto: 0.1.3
+    dev: false
+
   /arri@0.32.0:
     resolution: {integrity: sha512-F5paL7dkAPaGr/iYw/00OyNAaNv7H6JG/mvWLEETKRyP5/gEc1emeF+PDuC8IOOLQbI7yy1B1lMabnEXwi7+xg==}
     hasBin: true
@@ -925,6 +933,10 @@ packages:
 
   /jtd-utils@0.32.0:
     resolution: {integrity: sha512-WQvSi8fokI2Q9zC3sntL+Ije+Gfq3Zu86yG6AhXvbO22Bva/njcD6Ro+/8ZMjJkptYz15FQ/uOI9GA6PmU1yFw==}
+    dev: false
+
+  /jtd-utils@0.32.1:
+    resolution: {integrity: sha512-EfBgGyfiiUkT38ycRYXsMURCGakrnFBA1Zl7g4p89Cm3wvnDxLiniHVgMn6sgaOSJjfcSrnfnOMj+1S9Ns6WcQ==}
     dev: false
 
   /magic-string@0.25.9:

@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "arri": "^0.32.0",
-    "arri-validate": "^0.32.0"
+    "arri-validate": "^0.32.1"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
