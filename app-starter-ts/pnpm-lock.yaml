@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   arri:
-    specifier: ^0.32.1
-    version: 0.32.1
+    specifier: ^0.32.2
+    version: 0.32.2
   arri-validate:
     specifier: ^0.32.2
     version: 0.32.2
@@ -460,45 +460,37 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /arri-client@0.32.1:
-    resolution: {integrity: sha512-ji7Jrox9lrp5PO/EkUM0WHGIflo5VrOlPod2tYM1IFaGaqSZWfxspo9q9l+mED9N0xFVTUsrmp4wZ0YGx7GtSg==}
+  /arri-client@0.32.2:
+    resolution: {integrity: sha512-wkb5Ugx8467vC/0ll+ArgAPM/o0fLlD/lzHn/uWDfocB2EwZtQi86EXz5Qnj6Grs1LtmAOI3mmuRImhBg0ULjg==}
     dependencies:
       '@fortaine/fetch-event-source': 3.0.6
-      arri-validate: 0.32.1
+      arri-validate: 0.32.2
       ofetch: 1.3.3
     dev: false
 
-  /arri-codegen-dart@0.32.1:
-    resolution: {integrity: sha512-EEj4qkihkeWK7q/QFYjG+y3KOW03bl87qE3wkZAuJWV+xnHtUA031DwkbAR/XLcXkIGxsutIwnTbdgmRmv5ZFA==}
+  /arri-codegen-dart@0.32.2:
+    resolution: {integrity: sha512-4e6ZmCyR/oQZF/ILL21DJO0EjHQqrpWQ1gn1HZywpTGkumctGvCNkPdANyi1r0IjTW62Dmr4SZSerHuznX6WIw==}
     dependencies:
-      arri-codegen-utils: 0.32.1
-      arri-validate: 0.32.1
+      arri-codegen-utils: 0.32.2
+      arri-validate: 0.32.2
     dev: false
 
-  /arri-codegen-ts@0.32.1:
-    resolution: {integrity: sha512-gMWtyzXjuXB4sYo4SRREa8jQoJFyQgdCJKXknF3uXZqPsenfhP6L+5fI5JFyRT3Vt0uxXuzsGw9mFpGieeveIQ==}
+  /arri-codegen-ts@0.32.2:
+    resolution: {integrity: sha512-X4CG3O0WCZv1+Hb3K/2yzDyEAxkTRNpxhHcIBEgCEgGo7ZoC6lpe8oZcDSzyFV9g+ZWk4CU/mxQMhE4QDOJXAg==}
     dependencies:
       ajv: 8.12.0
-      arri-client: 0.32.1
-      arri-codegen-utils: 0.32.1
-      arri-validate: 0.32.1
+      arri-client: 0.32.2
+      arri-codegen-utils: 0.32.2
+      arri-validate: 0.32.2
       prettier: 3.2.5
     dev: false
 
-  /arri-codegen-utils@0.32.1:
-    resolution: {integrity: sha512-TzgOftfjwLWRC7dsPbZhy3leWxPSIYFULsV79rJwDEA/TdP4rf9ksEemnXJxkKebMZRacJy82x8psV4+Il8/Ug==}
+  /arri-codegen-utils@0.32.2:
+    resolution: {integrity: sha512-sD3CSdJwke1qaeC5Ule3qHQWXgeZYQ8fDIGZjQG0+U1sAkXImO4haL4hGL23FsZL9k3eOJ/6V1iY92pALsfy3A==}
     dependencies:
-      arri-validate: 0.32.1
-      jtd-utils: 0.32.1
+      arri-validate: 0.32.2
+      jtd-utils: 0.32.2
       scule: 1.3.0
-    dev: false
-
-  /arri-validate@0.32.1:
-    resolution: {integrity: sha512-z+V/6dX47gjZwgDlajWhZzVBm5l5Iw2ktELwltgdLGeDjE9yFO/8FpsZ3uRB+hME/RbVaYZNzKcLABq2BBOaWg==}
-    dependencies:
-      jtd-utils: 0.32.1
-      scule: 1.3.0
-      uncrypto: 0.1.3
     dev: false
 
   /arri-validate@0.32.2:
@@ -509,15 +501,15 @@ packages:
       uncrypto: 0.1.3
     dev: false
 
-  /arri@0.32.1:
-    resolution: {integrity: sha512-Hl4Bo6S7cQ91sPMzRZkOvEAa+172PwD9hWgG6qhZnyzwl9D9Y6KxEgYSJYXR+nA2IVUkQfGkWxdJTATJ9d7VkA==}
+  /arri@0.32.2:
+    resolution: {integrity: sha512-OTi0d2oyyE/tD0Exw30m/12ynsEl+17JThnsorYpLN18J+0O1z6jbVhez3IfQ+w6D4SziSnTPNMij4XLdogNTQ==}
     hasBin: true
     dependencies:
       '@joshmossas/listhen': 1.6.0
-      arri-codegen-dart: 0.32.1
-      arri-codegen-ts: 0.32.1
-      arri-codegen-utils: 0.32.1
-      arri-validate: 0.32.1
+      arri-codegen-dart: 0.32.2
+      arri-codegen-ts: 0.32.2
+      arri-codegen-utils: 0.32.2
+      arri-validate: 0.32.2
       c12: 1.10.0
       chokidar: 3.6.0
       citty: 0.1.6
@@ -929,10 +921,6 @@ packages:
 
   /jsonc-parser@3.2.0:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
-    dev: false
-
-  /jtd-utils@0.32.1:
-    resolution: {integrity: sha512-EfBgGyfiiUkT38ycRYXsMURCGakrnFBA1Zl7g4p89Cm3wvnDxLiniHVgMn6sgaOSJjfcSrnfnOMj+1S9Ns6WcQ==}
     dev: false
 
   /jtd-utils@0.32.2:
