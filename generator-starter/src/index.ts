@@ -2,9 +2,11 @@
 // See https://github.com/modiimedia/arri/tree/master/packages/arri-codegen/utils for details
 import { defineClientGeneratorPlugin } from "arri-codegen-utils";
 
+// add or remove fields here for custom generator options
+// official client generators have "clientName" and "outputFile" in their options
 interface Options {
-    // add or remove fields here for custom generator options
-    // official client generators typically have "clientName" and "outputFile" in their options
+    clientName: string;
+    outputFile: string;
 }
 
 export default defineClientGeneratorPlugin((options: Options) => {
