@@ -15,7 +15,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "arri-codegen-utils": "^0.31.0"
+    "arri-codegen-utils": "^0.32.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.27",

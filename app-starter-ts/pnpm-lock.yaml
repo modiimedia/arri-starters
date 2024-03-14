@@ -6,19 +6,19 @@ settings:
 
 dependencies:
   arri:
-    specifier: ^0.31.0
-    version: 0.31.0
+    specifier: ^0.32.0
+    version: 0.32.0
   arri-validate:
-    specifier: ^0.31.0
-    version: 0.31.0
+    specifier: ^0.32.0
+    version: 0.32.0
 
 devDependencies:
   prettier:
     specifier: ^3.2.5
     version: 3.2.5
   typescript:
-    specifier: ^5.3.3
-    version: 5.3.3
+    specifier: ^5.4.2
+    version: 5.4.2
 
 packages:
 
@@ -249,7 +249,7 @@ packages:
       h3: 1.11.1
       http-shutdown: 1.2.2
       jiti: 1.21.0
-      mlly: 1.5.0
+      mlly: 1.6.1
       node-forge: 1.3.1
       pathe: 1.1.2
       std-env: 3.7.0
@@ -442,6 +442,16 @@ packages:
       uri-js: 4.4.1
     dev: false
 
+  /ansi-colors@4.1.3:
+    resolution: {integrity: sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw==}
+    engines: {node: '>=6'}
+    dev: false
+
+  /ansi-regex@5.0.1:
+    resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
+    engines: {node: '>=8'}
+    dev: false
+
   /anymatch@3.1.3:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
@@ -450,61 +460,62 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /arri-client@0.31.0:
-    resolution: {integrity: sha512-1zxnjg6apxgK3eJjxSJ5to6uGaN0VmCzQc1s+8Wc4E+bXEOUmqaG/9tAXgEaLiSswlFxRvYfQy9wMMPuG4Je8g==}
+  /arri-client@0.32.0:
+    resolution: {integrity: sha512-PfJMouc9xG2e61lr586Uei+pv5XDNX0ZG3ujgsqCt/08+mSLIjeh25hWYZnhtTJffyT6P6C3jm87lKbiOHYD4g==}
     dependencies:
       '@fortaine/fetch-event-source': 3.0.6
-      arri-validate: 0.31.0
+      arri-validate: 0.32.0
       ofetch: 1.3.3
     dev: false
 
-  /arri-codegen-dart@0.31.0:
-    resolution: {integrity: sha512-EazHpkGC4LByzdi2QJB3WnGhqf/gH2Wz5GnD+LDxghgSzjNQq5mnkT5bGwqb0PAdyHYdIZr6fhozLcKUmUtR3A==}
+  /arri-codegen-dart@0.32.0:
+    resolution: {integrity: sha512-RGfnH8STbGpnqhnbD7An8+zfl/xFi7zhzSrqJMhYz6uybjEuAzkzxETuGrgAm23S1OKDWsB7BSKnSJPwJKOlzw==}
     dependencies:
-      arri-codegen-utils: 0.31.0
-      arri-validate: 0.31.0
+      arri-codegen-utils: 0.32.0
+      arri-validate: 0.32.0
     dev: false
 
-  /arri-codegen-ts@0.31.0:
-    resolution: {integrity: sha512-5ubg3vQmn+mwk12Z742RAwePaPR374/PSWv2L7oWiqawCsGrNeZjlZMb0gKFZhAOL08HuU/SJDlNEm7JclK4yg==}
+  /arri-codegen-ts@0.32.0:
+    resolution: {integrity: sha512-m1e0vhy+vVW2Wco6oh51lL7ZhpfO9mlA/v0YSfOnALCnqIdEmcMd1hQaUIBTuWFye4Ewo2K3mer+QNEtJtRczQ==}
     dependencies:
       ajv: 8.12.0
-      arri-client: 0.31.0
-      arri-codegen-utils: 0.31.0
-      arri-validate: 0.31.0
+      arri-client: 0.32.0
+      arri-codegen-utils: 0.32.0
+      arri-validate: 0.32.0
       prettier: 3.2.5
     dev: false
 
-  /arri-codegen-utils@0.31.0:
-    resolution: {integrity: sha512-jTPhV+Eam6w+X674WlWwQoibYEMwabDh5V13b/mXIgqtClcimp/18W702gzF5dGg8bFLUtVuf6V0WM9HLBz5Jg==}
+  /arri-codegen-utils@0.32.0:
+    resolution: {integrity: sha512-PKJLFO3PA2a+5f1BEKWYgTI+MvGWa0NLB2ITjwZUZRrj2PeXaOPTMW70s6oo7ap6GOA3sdv3XqWJDBoEGpEyZw==}
     dependencies:
-      arri-validate: 0.31.0
-      jtd-utils: 0.31.0
+      arri-validate: 0.32.0
+      jtd-utils: 0.32.0
       scule: 1.3.0
     dev: false
 
-  /arri-validate@0.31.0:
-    resolution: {integrity: sha512-SemKojycYv0ltTYyQ7plerYBy3IvOlTkxgbM5Wi6Q6DWd1mp9wx/wi7ICaKNbWJW9K4WngMXTWcqHfO1v4ekEg==}
+  /arri-validate@0.32.0:
+    resolution: {integrity: sha512-HPQz+99PX30WyMJ7WQvVc3WHo2grPcB05vhVX4LVvAT0ak5aVyyZpurcU0KCp6YiQrO+4iqHiydzOjmQA/TnJw==}
     dependencies:
-      jtd-utils: 0.31.0
+      jtd-utils: 0.32.0
       scule: 1.3.0
       uncrypto: 0.1.3
     dev: false
 
-  /arri@0.31.0:
-    resolution: {integrity: sha512-7Q905Jq8FmJFvRrhP8x0di+C33T50fm8/ma2SafcU2oEj1kcwTR2nmVtkNYtgNSGMpLeYFrc6KtUvKtJKb45YA==}
+  /arri@0.32.0:
+    resolution: {integrity: sha512-F5paL7dkAPaGr/iYw/00OyNAaNv7H6JG/mvWLEETKRyP5/gEc1emeF+PDuC8IOOLQbI7yy1B1lMabnEXwi7+xg==}
     hasBin: true
     dependencies:
       '@joshmossas/listhen': 1.6.0
-      arri-codegen-dart: 0.31.0
-      arri-codegen-ts: 0.31.0
-      arri-codegen-utils: 0.31.0
-      arri-validate: 0.31.0
+      arri-codegen-dart: 0.32.0
+      arri-codegen-ts: 0.32.0
+      arri-codegen-utils: 0.32.0
+      arri-validate: 0.32.0
       c12: 1.10.0
       chokidar: 3.6.0
       citty: 0.1.6
       consola: 3.2.3
       degit: 2.8.4
+      enquirer: 2.4.1
       esbuild: 0.20.1
       esbuild-plugin-replace: 1.4.0
       globby: 14.0.1
@@ -642,6 +653,14 @@ packages:
   /dotenv@16.4.5:
     resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
+    dev: false
+
+  /enquirer@2.4.1:
+    resolution: {integrity: sha512-rRqJg/6gd538VHvR3PSrdRBb/1Vy2YfzHqzvbhGIQpDRKIa4FgV/54b5Q1xYSxOOwKvjXweS26E0Q+nAMwp2pQ==}
+    engines: {node: '>=8.6'}
+    dependencies:
+      ansi-colors: 4.1.3
+      strip-ansi: 6.0.1
     dev: false
 
   /esbuild-plugin-replace@1.4.0:
@@ -904,8 +923,8 @@ packages:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
     dev: false
 
-  /jtd-utils@0.31.0:
-    resolution: {integrity: sha512-rFifhit9TfLXaiOVl12n4nA/UqUnveHwsymfliP3MUcXPt93ztGyLCitv6t6atdmr3JHYuacgTtBWfsXVNN+NA==}
+  /jtd-utils@0.32.0:
+    resolution: {integrity: sha512-WQvSi8fokI2Q9zC3sntL+Ije+Gfq3Zu86yG6AhXvbO22Bva/njcD6Ro+/8ZMjJkptYz15FQ/uOI9GA6PmU1yFw==}
     dev: false
 
   /magic-string@0.25.9:
@@ -966,15 +985,6 @@ packages:
     resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
     engines: {node: '>=10'}
     hasBin: true
-    dev: false
-
-  /mlly@1.5.0:
-    resolution: {integrity: sha512-NPVQvAY1xr1QoVeG0cy8yUYC7FQcOx6evl/RjT1wL5FvzPnzOysoqB/jmx/DhssT2dYa8nxECLAaFI/+gVLhDQ==}
-    dependencies:
-      acorn: 8.11.3
-      pathe: 1.1.2
-      pkg-types: 1.0.3
-      ufo: 1.4.0
     dev: false
 
   /mlly@1.6.1:
@@ -1161,6 +1171,13 @@ packages:
     resolution: {integrity: sha512-JPbdCEQLj1w5GilpiHAx3qJvFndqybBysA3qUOnznweH4QbNYUsW/ea8QzSrnh0vNsezMMw5bcVool8lM0gwzg==}
     dev: false
 
+  /strip-ansi@6.0.1:
+    resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
+    engines: {node: '>=8'}
+    dependencies:
+      ansi-regex: 5.0.1
+    dev: false
+
   /strip-final-newline@3.0.0:
     resolution: {integrity: sha512-dOESqjYr96iWYylGObzd39EuNTa5VJxyvVAEm5Jnh7KGo75V43Hk1odPQkNDyXNmUR6k+gEiDVXnjB8HJ3crXw==}
     engines: {node: '>=12'}
@@ -1190,8 +1207,8 @@ packages:
       is-number: 7.0.0
     dev: false
 
-  /typescript@5.3.3:
-    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
+  /typescript@5.4.2:
+    resolution: {integrity: sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
