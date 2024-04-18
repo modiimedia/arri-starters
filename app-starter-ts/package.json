@@ -13,8 +13,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "arri": "^0.32.2",
-    "arri-validate": "^0.32.2"
+    "arri": "^0.40.0",
+    "arri-validate": "^0.40.0"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
