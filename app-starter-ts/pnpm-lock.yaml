@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       arri:
-        specifier: ^0.40.0
-        version: 0.40.0
+        specifier: ^0.41.0
+        version: 0.41.0
       arri-validate:
-        specifier: ^0.40.0
-        version: 0.40.0
+        specifier: ^0.41.0
+        version: 0.41.0
     devDependencies:
       prettier:
         specifier: ^3.2.5
@@ -162,8 +162,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@joshmossas/listhen@1.10.0':
-    resolution: {integrity: sha512-DnVlguupg5vl3eslE38OWfGTnxRAwQnoOqlHGv+5BzCm0a6TpKN0QoQuibzfkiWmIXTSZ5b4Kkh6rU6Rk3Xa+Q==}
+  '@joshmossas/listhen@1.10.1':
+    resolution: {integrity: sha512-nTvhrbk/JS2CYbREnHFcJclrN9KMevS10hz7oxQPMt9attC1/fJIyyuvwzKpJxdejOMJRnsPMno4vhg38JhYoQ==}
     hasBin: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -264,6 +264,9 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
+  '@types/source-map-support@0.5.10':
+    resolution: {integrity: sha512-tgVP2H469x9zq34Z0m/fgPewGhg/MLClalNOiPIzQlXrSS2YrKu/xCdSCKnEDwkFha51VKEKB6A9wW26/ZNwzA==}
+
   acorn@8.11.3:
     resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
     engines: {node: '>=0.4.0'}
@@ -284,20 +287,20 @@ packages:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
 
-  arri-codegen-dart@0.40.0:
-    resolution: {integrity: sha512-JoVLYZvnKj7A0DHYbkgRwGXjgrYrpLuYEjLViEDQ1eZH1k7n7mI1XnOM3tsXi3ukwAFVTlQ76BHfveqHFrj1lw==}
+  arri-codegen-dart@0.41.0:
+    resolution: {integrity: sha512-dYXa53QwuwEDGjNM5wHcRI6i3oB25GlVM4A/RRaKpmdPahCvMBynTBV2KGn0QjfE88VURwXVB1XRJwcsUHnIwQ==}
 
-  arri-codegen-ts@0.40.0:
-    resolution: {integrity: sha512-BNtROzehmchsWoN36sJ8y2HlmW2Z4AzVLOfag5nIW6i7aHiZuthHBME9p6GDspUWNLqC9zlqwWT3Qnoyg3lQ5w==}
+  arri-codegen-ts@0.41.0:
+    resolution: {integrity: sha512-HsUALLVI0sJcP66kf+W7WvgxSMFRF7aHeMKiyci4foln+BC0zgUUZOOhxlhq36n7HJ/Hi6x50Dxqy1JXtaXE6A==}
 
-  arri-codegen-utils@0.40.0:
-    resolution: {integrity: sha512-jbtnmYabnXbvX/D5PXJcl19KITFTzaQ277kUxabawuASe2Hu5R0a3/SzI3TSu7nawmhMUI5JhY1P/0TKEfnE+Q==}
+  arri-codegen-utils@0.41.0:
+    resolution: {integrity: sha512-IAfPsBkImGsUsJmmvTGiJ4pgg6VPWR0KCowM6BfQmIEIymbaLPw+/7JKv7b6hdDAtCaXTDoKZ5r9/ME09uMFeA==}
 
-  arri-validate@0.40.0:
-    resolution: {integrity: sha512-HwJmTNcRIVQZqieAPdYTO2Dcbe/7lPbqGUIm/OmsgJJURvB4fwdb0FpBIe/KT6vsWJNaBlM7fPpQtaDss+mwnA==}
+  arri-validate@0.41.0:
+    resolution: {integrity: sha512-/KGZOfbMP87nuzHlFPo3WZktaDhalM5iI2+LjP61/9kOti9Bwi5xpp2dFmn7mwxfJvcLuqKlqD7w27LaOwG7CQ==}
 
-  arri@0.40.0:
-    resolution: {integrity: sha512-ZB6VJWOVNTKtz+dK7UMeXTVo6P086Z4rT3coVYSMprXZemNgsNlt34pYRNNCm76dpGb4ah8gVpOGCa4rF/Opjw==}
+  arri@0.41.0:
+    resolution: {integrity: sha512-Au+X4F4jE27jVMYDvEUwT4OJUjCUQkqzkIBc8ZbMINegqu32vYqZwWNfNtzUfARggctByM3sCtFYTylGE2C1Ag==}
     hasBin: true
 
   binary-extensions@2.2.0:
@@ -307,6 +310,9 @@ packages:
   braces@3.0.2:
     resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==}
     engines: {node: '>=8'}
+
+  buffer-from@1.1.2:
+    resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
   c12@1.10.0:
     resolution: {integrity: sha512-0SsG7UDhoRWcuSvKWHaXmu5uNjDCDN3nkQLRL4Q42IlFy+ze58FcCoI3uPwINXinkz7ZinbhEgyzYFw9u9ZV8g==}
@@ -504,8 +510,8 @@ packages:
   jsonc-parser@3.2.0:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
 
-  jtd-utils@0.40.0:
-    resolution: {integrity: sha512-E9yFSqNWxtF4Ewy003mcsx4HcvpjVOOyW1sWLa+DwlwA6I1y4ar3bUQ+6hm2hc7i4FtMc6dxxKQbE9HkRkz32w==}
+  jtd-utils@0.41.0:
+    resolution: {integrity: sha512-dg9dOviYCxFZ851xVzD62lCuSejGfSco3b6NdgljKpQLpRLJ/P3pbaqT9xMoVt6B+vo2lVe+9hCnCDcAQfkwgw==}
 
   magic-string@0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
@@ -552,9 +558,6 @@ packages:
 
   node-addon-api@7.0.0:
     resolution: {integrity: sha512-vgbBJTS4m5/KkE16t5Ly0WW9hz46swAstv0hYYwMtbG7AznRhNyfLRe8HZAiWIpcHzoO7HxhLuBQj9rJ/Ho0ZA==}
-
-  node-fetch-native@1.6.1:
-    resolution: {integrity: sha512-bW9T/uJDPAJB2YNYEpWzE54U5O3MQidXsOyTfnbKYtTtFexRvGzb1waphBN4ZwP6EcIvYYEOwW0b72BpAqydTw==}
 
   node-fetch-native@1.6.4:
     resolution: {integrity: sha512-IhOigYzAKHd244OC0JIMIUrjzctirCmPkaIfhDeGcEETWof5zKYUW7e7MYvChGWh/4CJeXEgsRyGzuF334rOOQ==}
@@ -663,6 +666,13 @@ packages:
     resolution: {integrity: sha512-ZA6oR3T/pEyuqwMgAKT0/hAv8oAXckzbkmR0UkUosQ+Mc4RxGoJkRmwHgHufaenlyAgE1Mxgpdcrf75y6XcnDg==}
     engines: {node: '>=14.16'}
 
+  source-map-support@0.5.21:
+    resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
+
+  source-map@0.6.1:
+    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
+    engines: {node: '>=0.10.0'}
+
   sourcemap-codec@1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     deprecated: Please use @jridgewell/sourcemap-codec instead
@@ -694,9 +704,6 @@ packages:
     resolution: {integrity: sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==}
     engines: {node: '>=14.17'}
     hasBin: true
-
-  ufo@1.4.0:
-    resolution: {integrity: sha512-Hhy+BhRBleFjpJ2vchUNN40qgkh0366FWJGqVLYBHev0vpHTrXSA0ryT+74UiW6KWsldNurQMKGqCm1M2zBciQ==}
 
   ufo@1.5.3:
     resolution: {integrity: sha512-Y7HYmWaFwPUmkoQCUIAYpKqkOf+SbVj/2fJJZ4RJMCfZp0rTGwRbzQD+HghfnhKOjL9E01okqz+ncJskGYfBNw==}
@@ -800,7 +807,7 @@ snapshots:
   '@esbuild/win32-x64@0.20.2':
     optional: true
 
-  '@joshmossas/listhen@1.10.0':
+  '@joshmossas/listhen@1.10.1':
     dependencies:
       '@parcel/watcher': 2.4.1
       '@parcel/watcher-wasm': 2.4.1
@@ -817,7 +824,7 @@ snapshots:
       node-forge: 1.3.1
       pathe: 1.1.2
       std-env: 3.7.0
-      ufo: 1.4.0
+      ufo: 1.5.3
       untun: 0.1.3
       uqr: 0.1.2
     transitivePeerDependencies:
@@ -898,6 +905,10 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
+  '@types/source-map-support@0.5.10':
+    dependencies:
+      source-map: 0.6.1
+
   acorn@8.11.3: {}
 
   ajv@8.12.0:
@@ -916,39 +927,41 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  arri-codegen-dart@0.40.0:
+  arri-codegen-dart@0.41.0:
     dependencies:
-      arri-codegen-utils: 0.40.0
-      arri-validate: 0.40.0
+      arri-codegen-utils: 0.41.0
+      arri-validate: 0.41.0
 
-  arri-codegen-ts@0.40.0:
+  arri-codegen-ts@0.41.0:
     dependencies:
       ajv: 8.12.0
-      arri-codegen-utils: 0.40.0
-      arri-validate: 0.40.0
+      arri-codegen-utils: 0.41.0
+      arri-validate: 0.41.0
       prettier: 3.2.5
 
-  arri-codegen-utils@0.40.0:
+  arri-codegen-utils@0.41.0:
     dependencies:
-      arri-validate: 0.40.0
-      jtd-utils: 0.40.0
+      arri-validate: 0.41.0
+      jtd-utils: 0.41.0
       scule: 1.3.0
 
-  arri-validate@0.40.0:
+  arri-validate@0.41.0:
     dependencies:
-      jtd-utils: 0.40.0
+      jtd-utils: 0.41.0
       scule: 1.3.0
       uncrypto: 0.1.3
 
-  arri@0.40.0:
+  arri@0.41.0:
     dependencies:
-      '@joshmossas/listhen': 1.10.0
+      '@joshmossas/listhen': 1.10.1
       '@parcel/watcher': 2.4.1
-      arri-codegen-dart: 0.40.0
-      arri-codegen-ts: 0.40.0
-      arri-codegen-utils: 0.40.0
-      arri-validate: 0.40.0
+      '@types/source-map-support': 0.5.10
+      arri-codegen-dart: 0.41.0
+      arri-codegen-ts: 0.41.0
+      arri-codegen-utils: 0.41.0
+      arri-validate: 0.41.0
       c12: 1.10.0
+      chokidar: 3.6.0
       citty: 0.1.6
       consola: 3.2.3
       crossws: 0.2.4
@@ -964,6 +977,7 @@ snapshots:
       pathe: 1.1.2
       prettier: 3.2.5
       scule: 1.3.0
+      source-map-support: 0.5.21
       uncrypto: 0.1.3
     transitivePeerDependencies:
       - uWebSockets.js
@@ -973,6 +987,8 @@ snapshots:
   braces@3.0.2:
     dependencies:
       fill-range: 7.0.1
+
+  buffer-from@1.1.2: {}
 
   c12@1.10.0:
     dependencies:
@@ -1120,7 +1136,7 @@ snapshots:
       citty: 0.1.6
       consola: 3.2.3
       defu: 6.1.4
-      node-fetch-native: 1.6.1
+      node-fetch-native: 1.6.4
       nypm: 0.3.4
       ohash: 1.1.3
       pathe: 1.1.2
@@ -1152,7 +1168,7 @@ snapshots:
       iron-webcrypto: 1.0.0
       ohash: 1.1.3
       radix3: 1.1.0
-      ufo: 1.4.0
+      ufo: 1.5.3
       uncrypto: 0.1.3
       unenv: 1.9.0
     transitivePeerDependencies:
@@ -1202,7 +1218,7 @@ snapshots:
 
   jsonc-parser@3.2.0: {}
 
-  jtd-utils@0.40.0: {}
+  jtd-utils@0.41.0: {}
 
   magic-string@0.25.9:
     dependencies:
@@ -1239,11 +1255,9 @@ snapshots:
       acorn: 8.11.3
       pathe: 1.1.2
       pkg-types: 1.0.3
-      ufo: 1.4.0
+      ufo: 1.5.3
 
   node-addon-api@7.0.0: {}
-
-  node-fetch-native@1.6.1: {}
 
   node-fetch-native@1.6.4: {}
 
@@ -1260,7 +1274,7 @@ snapshots:
       citty: 0.1.6
       execa: 8.0.1
       pathe: 1.1.2
-      ufo: 1.4.0
+      ufo: 1.5.3
 
   ofetch@1.3.4:
     dependencies:
@@ -1330,6 +1344,13 @@ snapshots:
 
   slash@5.1.0: {}
 
+  source-map-support@0.5.21:
+    dependencies:
+      buffer-from: 1.1.2
+      source-map: 0.6.1
+
+  source-map@0.6.1: {}
+
   sourcemap-codec@1.4.8: {}
 
   std-env@3.7.0: {}
@@ -1357,8 +1378,6 @@ snapshots:
 
   typescript@5.4.2: {}
 
-  ufo@1.4.0: {}
-
   ufo@1.5.3: {}
 
   uncrypto@0.1.3: {}
@@ -1368,7 +1387,7 @@ snapshots:
       consola: 3.2.3
       defu: 6.1.4
       mime: 3.0.0
-      node-fetch-native: 1.6.1
+      node-fetch-native: 1.6.4
       pathe: 1.1.2
 
   unicorn-magic@0.1.0: {}

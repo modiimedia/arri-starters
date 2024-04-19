@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       arri-codegen-utils:
-        specifier: ^0.40.0
-        version: 0.40.0
+        specifier: ^0.41.0
+        version: 0.41.0
     devDependencies:
       '@types/node':
         specifier: ^20.11.27
@@ -464,11 +464,11 @@ packages:
     resolution: {integrity: sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA==}
     engines: {node: '>=10'}
 
-  arri-codegen-utils@0.40.0:
-    resolution: {integrity: sha512-jbtnmYabnXbvX/D5PXJcl19KITFTzaQ277kUxabawuASe2Hu5R0a3/SzI3TSu7nawmhMUI5JhY1P/0TKEfnE+Q==}
+  arri-codegen-utils@0.41.0:
+    resolution: {integrity: sha512-IAfPsBkImGsUsJmmvTGiJ4pgg6VPWR0KCowM6BfQmIEIymbaLPw+/7JKv7b6hdDAtCaXTDoKZ5r9/ME09uMFeA==}
 
-  arri-validate@0.40.0:
-    resolution: {integrity: sha512-HwJmTNcRIVQZqieAPdYTO2Dcbe/7lPbqGUIm/OmsgJJURvB4fwdb0FpBIe/KT6vsWJNaBlM7fPpQtaDss+mwnA==}
+  arri-validate@0.41.0:
+    resolution: {integrity: sha512-/KGZOfbMP87nuzHlFPo3WZktaDhalM5iI2+LjP61/9kOti9Bwi5xpp2dFmn7mwxfJvcLuqKlqD7w27LaOwG7CQ==}
 
   assertion-error@1.1.0:
     resolution: {integrity: sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==}
@@ -818,8 +818,8 @@ packages:
   jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
 
-  jtd-utils@0.40.0:
-    resolution: {integrity: sha512-E9yFSqNWxtF4Ewy003mcsx4HcvpjVOOyW1sWLa+DwlwA6I1y4ar3bUQ+6hm2hc7i4FtMc6dxxKQbE9HkRkz32w==}
+  jtd-utils@0.41.0:
+    resolution: {integrity: sha512-dg9dOviYCxFZ851xVzD62lCuSejGfSco3b6NdgljKpQLpRLJ/P3pbaqT9xMoVt6B+vo2lVe+9hCnCDcAQfkwgw==}
 
   lilconfig@3.1.1:
     resolution: {integrity: sha512-O18pf7nyvHTckunPWCV1XUNXU1piu01y2b7ATJ0ppkUkk8ocqVWBrYjJBCwHDjD/ZWcfyrA0P4gKhzWGi5EINQ==}
@@ -1757,15 +1757,15 @@ snapshots:
 
   ansi-styles@5.2.0: {}
 
-  arri-codegen-utils@0.40.0:
+  arri-codegen-utils@0.41.0:
     dependencies:
-      arri-validate: 0.40.0
-      jtd-utils: 0.40.0
+      arri-validate: 0.41.0
+      jtd-utils: 0.41.0
       scule: 1.3.0
 
-  arri-validate@0.40.0:
+  arri-validate@0.41.0:
     dependencies:
-      jtd-utils: 0.40.0
+      jtd-utils: 0.41.0
       scule: 1.3.0
       uncrypto: 0.1.3
 
@@ -2147,7 +2147,7 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  jtd-utils@0.40.0: {}
+  jtd-utils@0.41.0: {}
 
   lilconfig@3.1.1: {}
 
