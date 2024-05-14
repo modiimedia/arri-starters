@@ -12,7 +12,8 @@
   "scripts": {
     "build": "unbuild",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "format": "prettier --write ./src  .prettierrc build.config.ts tsconfig.json README.md"
   },
   "dependencies": {
     "@arrirpc/codegen-utils": "^0.45.0"
