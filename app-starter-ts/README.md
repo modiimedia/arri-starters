@@ -21,8 +21,8 @@ Create new RPCs in the `./src/procedures` directory by adding `.rpc.ts` files. T
 
 ```ts
 // ./src/procedures/sayHello.rpc.ts
-import { defineRpc } from "arri";
-import { a } from "arri-validate";
+import { defineRpc } from "@arrirpc/server";
+import { a } from "@arrirpc/schema";
 
 export default defineRpc({
     params: a.object({
@@ -41,8 +41,8 @@ export default defineRpc({
 
 ```ts
 // ./src/procedures/users/createUser.rpc.ts
-import { defineRpc } from "arri";
-import { a } from "arri-validate";
+import { defineRpc } from "@arrirpc/server";
+import { a } from "@arrirpc/schema";
 
 export default defineRpc({
     params: a.object({
@@ -83,8 +83,8 @@ If you don't want to use the file-based router you can also manual add RPCs like
 #### Using the `ArriApp` instance
 
 ```ts
-import { ArriApp } from "arri";
-import { a } from "arri-validate";
+import { ArriApp } from "@arrirpc/server";
+import { a } from "@arrirpc/schema";
 
 const app = new ArriApp();
 
@@ -108,8 +108,8 @@ export default app;
 #### Using a router
 
 ```ts
-import { ArriApp, ArriRouter } from "arri";
-import { a } from "arri-validate";
+import { ArriApp, ArriRouter } from "@arrirpc/server";
+import { a } from "@arrirpc/schema";
 
 const app = new ArriApp();
 const router = new ArriRouter();

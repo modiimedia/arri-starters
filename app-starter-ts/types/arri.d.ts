@@ -1,6 +1,6 @@
-import "arri";
+import "@arrirpc/server";
 
-declare module "arri" {
+declare module "@arrirpc/server" {
     // add fields here to extends the H3EventContext in routes, middlewares, and procedures
     interface ArriEventContext {}
 
