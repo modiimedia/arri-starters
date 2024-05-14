@@ -17,9 +17,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@arrirpc/schema": "^0.45.0",
-    "@arrirpc/server": "^0.45.0",
-    "arri": "^0.45.0"
+    "@arrirpc/schema": "^0.45.1",
+    "@arrirpc/server": "^0.45.1",
+    "arri": "^0.45.1"
   },
   "devDependencies": {
     "@arrirpc/eslint-plugin": "^0.45.0",

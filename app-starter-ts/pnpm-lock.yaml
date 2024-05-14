@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@arrirpc/schema':
-        specifier: ^0.45.0
-        version: 0.45.0
+        specifier: ^0.45.1
+        version: 0.45.1
       '@arrirpc/server':
-        specifier: ^0.45.0
-        version: 0.45.0
+        specifier: ^0.45.1
+        version: 0.45.1
       arri:
-        specifier: ^0.45.0
-        version: 0.45.0
+        specifier: ^0.45.1
+        version: 0.45.1
     devDependencies:
       prettier:
         specifier: ^3.2.5
@@ -27,23 +27,23 @@ importers:
 
 packages:
 
-  '@arrirpc/codegen-dart@0.45.0':
-    resolution: {integrity: sha512-+iE6JZoUBPUY2jWBHuEkdKPPZjCJXLG0CV88oxqsqrrs8EmED9dbG9PbnOCvYWMNOjQmwsc6/NASGQwUX4Kgeg==}
+  '@arrirpc/codegen-dart@0.45.1':
+    resolution: {integrity: sha512-Xjw8Mn/kU/78Ccoahd5zin0RPmHTtlejiVINSGaEXT8GokIzy4cQm7e+ooZHf37ts2ZZDA4ENY5NLltGb0tDgQ==}
 
-  '@arrirpc/codegen-kotlin@0.45.0':
-    resolution: {integrity: sha512-aLVMKfbpoCcd8L/aFKLsrX9TJMS82K4xB4F1t6epNMFzG23VXtuxoMQc44rJHXBXA2HT2s5vKTxHjaag4RxOsg==}
+  '@arrirpc/codegen-kotlin@0.45.1':
+    resolution: {integrity: sha512-zK0qCh3OZEuvF65kjoEpMCcf/U7PAKd8ZWBCNOqMDzlVxVU8yC3rwneeTwFel6uR5QZBNs5A/1TUkAFVLWZgxw==}
 
-  '@arrirpc/codegen-ts@0.45.0':
-    resolution: {integrity: sha512-zQojQhvNIlOpWk5k+WtD8ZI6LxW8BeOEdDQLBgrW+JAYjkDrd1ggEs9ZORXY3ce3JkNJ2qfpOpMTmVk5qVUEng==}
+  '@arrirpc/codegen-ts@0.45.1':
+    resolution: {integrity: sha512-znb/2FsiR/AGB4FFxdk9ZUkYwf3OIokNH3fIJsodF9ZvkTknwSWOwah9+JXAZ5d+DXG24giZnUYXyUHq1+21Qw==}
 
-  '@arrirpc/codegen-utils@0.45.0':
-    resolution: {integrity: sha512-AsfT1tC18YRK1O/gBfz3ZkwBJt27WC1ghJO7DiHm72TDAvAf/br4g1znonvXho+HKptSwrlz80EaWk6KmbTihw==}
+  '@arrirpc/codegen-utils@0.45.1':
+    resolution: {integrity: sha512-b5r8siga/WoU3FMNDgTAFAZRipc/UtzNfaEZsx75oQ+rUxMsihAzk/ql8eWyqaWahiMIXRSbKJ+0wofUxDOZeQ==}
 
-  '@arrirpc/schema@0.45.0':
-    resolution: {integrity: sha512-7e1brPLrjkHKelyB4rOtosj8n9d4edA+ucrd75A72he0h8GTNXCyN8rtY/FEV1QQObGhgz89SZb4ow7oT68l+Q==}
+  '@arrirpc/schema@0.45.1':
+    resolution: {integrity: sha512-1+lMphodnewPZdM+4a0D6fmEd2oaCenCWmgyOamXwcniUUruXKG+gu5F9ovGet/8C6rEeUTItccVNrFZ88aizA==}
 
-  '@arrirpc/server@0.45.0':
-    resolution: {integrity: sha512-QvbMV9IcF0dDJFY2umuC63mePL1RPJrOkTsXvZudwWHiRTxlYfJFS8CD6+MV3o7CAyqbnPmDXClsqrR8oB9+hQ==}
+  '@arrirpc/server@0.45.1':
+    resolution: {integrity: sha512-Hjrc93TuPvPny6mdaQ/ZmVEHfI3w1BMmLlD9MsOmVz1gcJndfz1dy519IY9gLrj715Ojqe8DH2e5BR1zZW+P5w==}
 
   '@esbuild/aix-ppc64@0.21.2':
     resolution: {integrity: sha512-/c7hocx0pm14bHQlqUVKmxwdT/e5/KkyoY1W8F9lk/8CkE037STDDz8PXUP/LE6faj2HqchvDs9GcShxFhI78Q==}
@@ -308,8 +308,8 @@ packages:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
 
-  arri@0.45.0:
-    resolution: {integrity: sha512-tvPKeVycb66qsBLgewi3sfklk4m7BtBUA7ESN6DJQB+7Cus7CLM5YykxH4S7+jjuCd/avttyFBFNwcZT1pW9kg==}
+  arri@0.45.1:
+    resolution: {integrity: sha512-mZbInIZaBePCHeTU8PYhJocQpH7GMS2CBThDCroKpj/V2/JocJDlzX7xRw2aB4QbBfsr66MGpo60NkWsW+w0zw==}
     hasBin: true
 
   binary-extensions@2.3.0:
@@ -509,14 +509,14 @@ packages:
     resolution: {integrity: sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==}
     hasBin: true
 
-  json-schema-to-jtd@0.45.0:
-    resolution: {integrity: sha512-y/4ojIl4EKPbbB0Tf52EvcUChwCa2Bpdm2bRZuDnwYwFBzkiVcy+g6PPtS7Dwa3/IKcHwH5FFulE5R1rZmGYsA==}
+  json-schema-to-jtd@0.45.1:
+    resolution: {integrity: sha512-tZOW/jSYV6RixXeK4L2gMxfaTQ9e93z+RqHKf2ILuqibQkAGGRnbmpS1Se9wcYNLP+pgdXP8ncOa1cB+ov9sgw==}
 
   json-schema-traverse@1.0.0:
     resolution: {integrity: sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==}
 
-  jtd-utils@0.45.0:
-    resolution: {integrity: sha512-xI3ZU3sUQA9SoCrvcN89O1cLt6cDEWvBVrKMWZisyWpvPFBSGv/r7FcXqRBHqgSJwRc8Ve3raYgvmDaO0BlYRg==}
+  jtd-utils@0.45.1:
+    resolution: {integrity: sha512-byMd7Gzg5w4rH11hDOlOnj20H74rCB/f0Y+tysc6QdGjYv84QizkwgAoPDby6KCq65XUxet1XOgfomgxx945lA==}
 
   magic-string@0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
@@ -744,45 +744,45 @@ packages:
 
 snapshots:
 
-  '@arrirpc/codegen-dart@0.45.0':
+  '@arrirpc/codegen-dart@0.45.1':
     dependencies:
-      '@arrirpc/codegen-utils': 0.45.0
-      '@arrirpc/schema': 0.45.0
+      '@arrirpc/codegen-utils': 0.45.1
+      '@arrirpc/schema': 0.45.1
 
-  '@arrirpc/codegen-kotlin@0.45.0':
+  '@arrirpc/codegen-kotlin@0.45.1':
     dependencies:
-      '@arrirpc/codegen-utils': 0.45.0
-      '@arrirpc/schema': 0.45.0
-      json-schema-to-jtd: 0.45.0
+      '@arrirpc/codegen-utils': 0.45.1
+      '@arrirpc/schema': 0.45.1
+      json-schema-to-jtd: 0.45.1
 
-  '@arrirpc/codegen-ts@0.45.0':
+  '@arrirpc/codegen-ts@0.45.1':
     dependencies:
-      '@arrirpc/codegen-utils': 0.45.0
-      '@arrirpc/schema': 0.45.0
+      '@arrirpc/codegen-utils': 0.45.1
+      '@arrirpc/schema': 0.45.1
       ajv: 8.13.0
       prettier: 3.2.5
 
-  '@arrirpc/codegen-utils@0.45.0':
+  '@arrirpc/codegen-utils@0.45.1':
     dependencies:
-      '@arrirpc/schema': 0.45.0
-      jtd-utils: 0.45.0
+      '@arrirpc/schema': 0.45.1
+      jtd-utils: 0.45.1
       scule: 1.3.0
 
-  '@arrirpc/schema@0.45.0':
+  '@arrirpc/schema@0.45.1':
     dependencies:
-      jtd-utils: 0.45.0
+      jtd-utils: 0.45.1
       scule: 1.3.0
       uncrypto: 0.1.3
 
-  '@arrirpc/server@0.45.0':
+  '@arrirpc/server@0.45.1':
     dependencies:
-      '@arrirpc/codegen-dart': 0.45.0
-      '@arrirpc/codegen-kotlin': 0.45.0
-      '@arrirpc/codegen-ts': 0.45.0
-      '@arrirpc/codegen-utils': 0.45.0
-      '@arrirpc/schema': 0.45.0
+      '@arrirpc/codegen-dart': 0.45.1
+      '@arrirpc/codegen-kotlin': 0.45.1
+      '@arrirpc/codegen-ts': 0.45.1
+      '@arrirpc/codegen-utils': 0.45.1
+      '@arrirpc/schema': 0.45.1
       '@types/source-map-support': 0.5.10
-      arri: 0.45.0
+      arri: 0.45.1
       crossws: 0.2.4
       h3: 1.11.1
       h3-sse: 0.0.12(h3@1.11.1)
@@ -981,12 +981,12 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  arri@0.45.0:
+  arri@0.45.1:
     dependencies:
-      '@arrirpc/codegen-dart': 0.45.0
-      '@arrirpc/codegen-kotlin': 0.45.0
-      '@arrirpc/codegen-ts': 0.45.0
-      '@arrirpc/codegen-utils': 0.45.0
+      '@arrirpc/codegen-dart': 0.45.1
+      '@arrirpc/codegen-kotlin': 0.45.1
+      '@arrirpc/codegen-ts': 0.45.1
+      '@arrirpc/codegen-utils': 0.45.1
       '@joshmossas/listhen': 1.10.1
       c12: 1.10.0
       chokidar: 3.6.0
@@ -1234,13 +1234,13 @@ snapshots:
 
   jiti@1.21.0: {}
 
-  json-schema-to-jtd@0.45.0:
+  json-schema-to-jtd@0.45.1:
     dependencies:
-      jtd-utils: 0.45.0
+      jtd-utils: 0.45.1
 
   json-schema-traverse@1.0.0: {}
 
-  jtd-utils@0.45.0: {}
+  jtd-utils@0.45.1: {}
 
   magic-string@0.25.9:
     dependencies:
