@@ -17,18 +17,18 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@arrirpc/schema": "^0.45.1",
-    "@arrirpc/server": "^0.45.1",
-    "arri": "^0.45.1"
+    "@arrirpc/schema": "^0.45.5",
+    "@arrirpc/server": "^0.45.5",
+    "arri": "^0.45.5"
   },
   "devDependencies": {
-    "@arrirpc/eslint-plugin": "^0.45.0",
-    "@eslint/js": "^9.2.0",
+    "@arrirpc/eslint-plugin": "^0.45.5",
+    "@eslint/js": "^9.3.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5",
-    "typescript-eslint": "7.9.0"
+    "typescript-eslint": "7.10.0"
   },
   "packageManager": "pnpm@9.1.0+sha256.22e36fba7f4880ecf749a5ca128b8435da085ecd49575e7fb9e64d6bf4fad394"
 }
