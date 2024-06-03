@@ -9,18 +9,18 @@ importers:
   .:
     dependencies:
       '@arrirpc/schema':
-        specifier: ^0.45.7
-        version: 0.45.7
+        specifier: ^0.48.0
+        version: 0.48.0
       '@arrirpc/server':
-        specifier: ^0.45.7
-        version: 0.45.7
+        specifier: ^0.48.0
+        version: 0.48.0
       arri:
-        specifier: ^0.45.7
-        version: 0.45.7
+        specifier: ^0.48.0
+        version: 0.48.0
     devDependencies:
       '@arrirpc/eslint-plugin':
-        specifier: ^0.45.7
-        version: 0.45.7(eslint@8.57.0)
+        specifier: ^0.48.0
+        version: 0.48.0(eslint@8.57.0)
       '@eslint/js':
         specifier: ^9.3.0
         version: 9.3.0
@@ -42,28 +42,28 @@ importers:
 
 packages:
 
-  '@arrirpc/codegen-dart@0.45.7':
-    resolution: {integrity: sha512-vwIddwRDko99EZuh0O2wN3azuR+Palbr9AvKuZLy3OoPBjaibtbHpXyWoJl2nXww1WPCkjsVTKJQJwcFe1XPrQ==}
+  '@arrirpc/codegen-dart@0.48.0':
+    resolution: {integrity: sha512-kOHDv/9O5s/f8tu6oROnFlCb8pgKVXrIjWpWNLsq3digOfD5Wb52vLmBIefVtvTNYBJRbzXXys3wiwByZZw/kw==}
 
-  '@arrirpc/codegen-kotlin@0.45.7':
-    resolution: {integrity: sha512-ns0Kac/Z15YCr8MmBgyqo8XvDknINcHfL/wfcVv2Dmc+vUyGSIaYq4cQMPdNSOlJXiTMoCYBLu0sTEOCTUB7ag==}
+  '@arrirpc/codegen-kotlin@0.48.0':
+    resolution: {integrity: sha512-YmLb2yfq4ronrtcdtdmpMc/0eGrG1PvXiWokSj+0c+uT3stTNYFm1T7Dr+Y9o3Yo9Poe+JPIi8FJZjxMEujMYw==}
 
-  '@arrirpc/codegen-ts@0.45.7':
-    resolution: {integrity: sha512-rglkkhOkk5M5UgWXe+80dGKa6WwJRLyI7FdTYuG0NSKtCjkbj9A2ZQTUVSvyAYZL3B7LbcFBkK8ibmnwMAq08Q==}
+  '@arrirpc/codegen-ts@0.48.0':
+    resolution: {integrity: sha512-X86tW6UDF8NIfLQx+9KC7hvRRtCOjrCVmqhs369vd/P7bd3hW7YusBn/1/JLrRCwKc7SOD+/2p16TNWIospl/A==}
 
-  '@arrirpc/codegen-utils@0.45.7':
-    resolution: {integrity: sha512-yo7lhSDZJZqH9V2C9ZLNJy0s3FiTDHY2CA1+cwuWo/dEM5/4gtA2PqyEM2r2SK0ph5+YeepWyMCU8xZU0y9kjQ==}
+  '@arrirpc/codegen-utils@0.48.0':
+    resolution: {integrity: sha512-iMUk5JbLfRRhvaB+Ha2xp8Eoqgamcoyw9ivKdd+skLI7dWv5nUraCoIZgoxRIDgKbrOCzihZB2QkSEgkeohosQ==}
 
-  '@arrirpc/eslint-plugin@0.45.7':
-    resolution: {integrity: sha512-+WR9F/NqjBwGTh7EPCAGIhKfPCZlOgVJD6tv/w3mc1vJhvlR1yjBKa1toKgmYqQVQnQ+9v3dlZWpTzkuWalxlw==}
+  '@arrirpc/eslint-plugin@0.48.0':
+    resolution: {integrity: sha512-ZXTVflxMH1wyrMfKMuM7GSeyg7LAa3tFha29KaIskyp/CiYPiGOTIaATAmW/jsijKSTjyIPgpK/eQ3pS/VYfkA==}
     peerDependencies:
       eslint: '>=8.0.0'
 
-  '@arrirpc/schema@0.45.7':
-    resolution: {integrity: sha512-7doq23MFcw8Vfry79/DR8p2LJ9246IBezRvthvhyyKZopLJoLJP6RpyPrCqsBE131I4KG9em19Is8F2BV9IWJA==}
+  '@arrirpc/schema@0.48.0':
+    resolution: {integrity: sha512-VNUrjikY+/jcYlRX7jowyTZX9nfhiPsg5URsWxZeqkQ6BO9Gxg7M7cN9AVSDTPPeNUDceVgN05kSFZDkez8kqw==}
 
-  '@arrirpc/server@0.45.7':
-    resolution: {integrity: sha512-hRszkjT7xFNccbYzODNDyEmcsTjFL12VPq9k6ZM1eH4gP4S7WoHKDq0Jv/KTPkmLIUGKNkJ3twcibMO1OWbRXA==}
+  '@arrirpc/server@0.48.0':
+    resolution: {integrity: sha512-IRg+k/FZxvendghc38Rhv1M0tqrJfAQvXDBKFEpvGke9NWJo+qGPX1Dk1a/FLLnNorbJm0XqF1HqB7krxR2GtQ==}
 
   '@esbuild/aix-ppc64@0.21.4':
     resolution: {integrity: sha512-Zrm+B33R4LWPLjDEVnEqt2+SLTATlru1q/xYKVn8oVTbiRBGmK2VIMoIYGJDGyftnGaC788IuzGFAlb7IQ0Y8A==}
@@ -438,8 +438,8 @@ packages:
     resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
     engines: {node: '>=8'}
 
-  arri@0.45.7:
-    resolution: {integrity: sha512-7i0FoSMY4CcCiHJ/HCZigg2kBsEAxSVnepg2pGopV6dsVxJnwBVxZgxJTUpx/HTnyG/YHTst5VmffEswgk69RQ==}
+  arri@0.48.0:
+    resolution: {integrity: sha512-6L4Bnlu+wwaQgeoNKxI8nwZMVtna5ReaXWTFsVbwGHCJd9FxxWUc26PJ+W5d/9pQKWDfdlJvR/Y0wKc19pjvLw==}
     hasBin: true
 
   balanced-match@1.0.2:
@@ -800,8 +800,8 @@ packages:
   json-buffer@3.0.1:
     resolution: {integrity: sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==}
 
-  json-schema-to-jtd@0.45.7:
-    resolution: {integrity: sha512-Ma7CeJnhL1ZAiG2MVxeeEewYPOmPxJbjT2aSpTqnASrUjKcl27Re36eDZDhwjddwczB5uO8TGRFx/cYLDkYiwg==}
+  json-schema-to-jtd@0.48.0:
+    resolution: {integrity: sha512-o1sD+pDrXelTo100auDIJYejvjwrVqRkjxOk9rwo3EbojH4rMg66QBvWkTovx5IGveiciplJALUcWRmN1Tn/wA==}
 
   json-schema-traverse@0.4.1:
     resolution: {integrity: sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==}
@@ -809,8 +809,8 @@ packages:
   json-stable-stringify-without-jsonify@1.0.1:
     resolution: {integrity: sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==}
 
-  jtd-utils@0.45.7:
-    resolution: {integrity: sha512-j2naMw4G1XiazSG/h/fzt1Ecrxpa5C4WQ4i9kySIP+RWHi7AilOJf9A2ula/r7je4lyF51K8H+h/8IvR2xDThA==}
+  jtd-utils@0.48.0:
+    resolution: {integrity: sha512-Dp+zvcedEdn14x5AlEGzUnhnyocR6YZCOVY5XF6kNEgxLjExfqpVkT1NesY/ALFjfj5aSqqSCYebmIeH7qXxxQ==}
 
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
@@ -978,6 +978,11 @@ packages:
 
   prettier@3.2.5:
     resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+  prettier@3.3.0:
+    resolution: {integrity: sha512-J9odKxERhCQ10OC2yb93583f6UnYutOeiV5i0zEDS7UGTdUt0u+y8erxl3lBKvwo/JHyyoEdXjwp4dke9oyZ/g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1159,48 +1164,48 @@ packages:
 
 snapshots:
 
-  '@arrirpc/codegen-dart@0.45.7':
+  '@arrirpc/codegen-dart@0.48.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.45.7
-      '@arrirpc/schema': 0.45.7
+      '@arrirpc/codegen-utils': 0.48.0
+      '@arrirpc/schema': 0.48.0
 
-  '@arrirpc/codegen-kotlin@0.45.7':
+  '@arrirpc/codegen-kotlin@0.48.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.45.7
-      '@arrirpc/schema': 0.45.7
-      json-schema-to-jtd: 0.45.7
+      '@arrirpc/codegen-utils': 0.48.0
+      '@arrirpc/schema': 0.48.0
+      json-schema-to-jtd: 0.48.0
 
-  '@arrirpc/codegen-ts@0.45.7':
+  '@arrirpc/codegen-ts@0.48.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.45.7
-      '@arrirpc/schema': 0.45.7
-      prettier: 3.2.5
+      '@arrirpc/codegen-utils': 0.48.0
+      '@arrirpc/schema': 0.48.0
+      prettier: 3.3.0
 
-  '@arrirpc/codegen-utils@0.45.7':
+  '@arrirpc/codegen-utils@0.48.0':
     dependencies:
-      '@arrirpc/schema': 0.45.7
-      jtd-utils: 0.45.7
+      '@arrirpc/schema': 0.48.0
+      jtd-utils: 0.48.0
       scule: 1.3.0
 
-  '@arrirpc/eslint-plugin@0.45.7(eslint@8.57.0)':
+  '@arrirpc/eslint-plugin@0.48.0(eslint@8.57.0)':
     dependencies:
       eslint: 8.57.0
 
-  '@arrirpc/schema@0.45.7':
+  '@arrirpc/schema@0.48.0':
     dependencies:
-      jtd-utils: 0.45.7
+      jtd-utils: 0.48.0
       scule: 1.3.0
       uncrypto: 0.1.3
 
-  '@arrirpc/server@0.45.7':
+  '@arrirpc/server@0.48.0':
     dependencies:
-      '@arrirpc/codegen-dart': 0.45.7
-      '@arrirpc/codegen-kotlin': 0.45.7
-      '@arrirpc/codegen-ts': 0.45.7
-      '@arrirpc/codegen-utils': 0.45.7
-      '@arrirpc/schema': 0.45.7
+      '@arrirpc/codegen-dart': 0.48.0
+      '@arrirpc/codegen-kotlin': 0.48.0
+      '@arrirpc/codegen-ts': 0.48.0
+      '@arrirpc/codegen-utils': 0.48.0
+      '@arrirpc/schema': 0.48.0
       '@types/source-map-support': 0.5.10
-      arri: 0.45.7
+      arri: 0.48.0
       crossws: 0.2.4
       h3: 1.11.1
       h3-sse: 0.0.12(h3@1.11.1)
@@ -1531,12 +1536,12 @@ snapshots:
 
   array-union@2.1.0: {}
 
-  arri@0.45.7:
+  arri@0.48.0:
     dependencies:
-      '@arrirpc/codegen-dart': 0.45.7
-      '@arrirpc/codegen-kotlin': 0.45.7
-      '@arrirpc/codegen-ts': 0.45.7
-      '@arrirpc/codegen-utils': 0.45.7
+      '@arrirpc/codegen-dart': 0.48.0
+      '@arrirpc/codegen-kotlin': 0.48.0
+      '@arrirpc/codegen-ts': 0.48.0
+      '@arrirpc/codegen-utils': 0.48.0
       '@joshmossas/listhen': 1.10.1
       c12: 1.10.0
       chokidar: 3.6.0
@@ -1550,7 +1555,7 @@ snapshots:
       h3: 1.11.1
       ofetch: 1.3.4
       pathe: 1.1.2
-      prettier: 3.2.5
+      prettier: 3.3.0
       scule: 1.3.0
     transitivePeerDependencies:
       - uWebSockets.js
@@ -1974,15 +1979,15 @@ snapshots:
 
   json-buffer@3.0.1: {}
 
-  json-schema-to-jtd@0.45.7:
+  json-schema-to-jtd@0.48.0:
     dependencies:
-      jtd-utils: 0.45.7
+      jtd-utils: 0.48.0
 
   json-schema-traverse@0.4.1: {}
 
   json-stable-stringify-without-jsonify@1.0.1: {}
 
-  jtd-utils@0.45.7: {}
+  jtd-utils@0.48.0: {}
 
   keyv@4.5.4:
     dependencies:
@@ -2132,6 +2137,8 @@ snapshots:
   prelude-ls@1.2.1: {}
 
   prettier@3.2.5: {}
+
+  prettier@3.3.0: {}
 
   punycode@2.3.1: {}
 

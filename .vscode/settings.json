@@ -1,0 +1,8 @@
+{
+  "eslint.experimental.useFlatConfig": true,
+  "eslint.workingDirectories": [
+    "app-starter-ts-with-eslint",
+    "app-starter-ts",
+    "generator-starter"
+  ]
+}
