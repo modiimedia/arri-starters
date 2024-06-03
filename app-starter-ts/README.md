@@ -2,6 +2,15 @@
 
 This project was created by `arri init`. View details at [https://github.com/modiimedia/arri](https://github.com/modiimedia/arri)
 
+## Table of Contents
+
+-   [Usage](#usage)
+    -   [Viewing All Procedures](#viewing-all-procedures)
+    -   [Adding Procedures (File-based Router)](#adding-procedures)
+    -   [Manually Adding Procedures](#manually-adding-procedures)
+    -   [Adding Non-RPC Routes](#adding-non-rpc-routes)
+    -   [Giving Your Schemas an ID](#giving-your-schemas-an-id)
+
 ## Usage
 
 ```bash
@@ -158,3 +167,97 @@ router.route({
 ```
 
 These routes will not be listed in the `__definition.json` file and will be ignored by code generators.
+
+### Giving Your Schemas An ID
+
+When specifying schemas for your procedures you can specify an ID.
+
+```ts
+// standard syntax
+const MySchema = a.object(
+    {
+        a: a.string(),
+        b: a.float64(),
+        c: a.timestamp(),
+    },
+    {
+        id: "MySchema",
+    },
+);
+
+// ID Shorthand
+const MySchema = a.object("MySchema", {
+    a: a.string(),
+    b: a.float64(),
+    c: a.timestamp(),
+});
+```
+
+During codegen these IDs will be used as the type name in the generated clients. If an ID is not specified Arri will create a typename based on the current context.
+
+#### Examples
+
+##### No IDs
+
+RPC Definition
+
+```ts
+// procedures/posts/getPost.rpc.ts
+export default defineRpc({
+    params: a.object({
+        id: a.string(),
+    }),
+    response: a.object({
+        id: a.string(),
+        title: a.string(),
+        authorId: a.string(),
+        text: a.string(),
+    }),
+    // rest
+});
+```
+
+Output
+
+```ts
+interface PostsGetPostParams {
+    id: string;
+}
+interface PostsGetPostResponse {
+    id: string;
+    title: string;
+    authorId: string;
+    text: string;
+}
+```
+
+**With IDs**
+
+```ts
+// procedures/posts/getPost.rpc.ts
+
+export default defineRpc({
+    params: a.object("PostParams", {
+        id: a.string(),
+    }),
+    response: a.object("Post", {
+        id: a.string(),
+        title: a.string(),
+        authorId: a.string(),
+        text: a.string(),
+    }),
+    // rest
+});
+```
+
+```ts
+interface PostParams {
+    id: string;
+}
+interface Post {
+    id: string;
+    title: string;
+    authorId: string;
+    text: string;
+}
+```
