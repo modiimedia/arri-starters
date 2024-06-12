@@ -13,7 +13,7 @@ interface Options {
 export default defineClientGeneratorPlugin((options: Options) => {
     return {
         options,
-        generator: async (def) => {
+        generator: async (def, isDevServer) => {
             // generating something using the app definition and the specified options
         },
     };
