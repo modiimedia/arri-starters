@@ -15,9 +15,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@arrirpc/schema": "^0.51.0",
-    "@arrirpc/server": "^0.51.0",
-    "arri": "^0.51.0"
+    "@arrirpc/schema": "^0.51.1",
+    "@arrirpc/server": "^0.51.1",
+    "arri": "^0.51.1"
   },
   "devDependencies": {
     "prettier": "^3.3.2",
