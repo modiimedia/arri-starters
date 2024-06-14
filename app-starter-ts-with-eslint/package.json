@@ -17,12 +17,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@arrirpc/schema": "^0.51.0",
-    "@arrirpc/server": "^0.51.0",
-    "arri": "^0.51.0"
+    "@arrirpc/schema": "^0.51.2",
+    "@arrirpc/server": "^0.51.2",
+    "arri": "^0.51.2"
   },
   "devDependencies": {
-    "@arrirpc/eslint-plugin": "^0.51.0",
+    "@arrirpc/eslint-plugin": "^0.51.2",
     "@eslint/js": "^9.4.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
