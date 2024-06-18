@@ -16,10 +16,10 @@
     "format": "prettier --write ./src  .prettierrc build.config.ts tsconfig.json README.md"
   },
   "dependencies": {
-    "@arrirpc/codegen-utils": "^0.51.2"
+    "@arrirpc/codegen-utils": "^0.53.1"
   },
   "devDependencies": {
-    "@types/node": "^20.14.2",
+    "@types/node": "^20.14.5",
     "prettier": "^3.3.2",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0",
