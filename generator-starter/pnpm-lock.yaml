@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@arrirpc/codegen-utils':
-        specifier: ^0.54.0
-        version: 0.54.0
+        specifier: ^0.55.0
+        version: 0.55.0
     devDependencies:
       '@types/node':
         specifier: ^20.14.10
@@ -34,11 +34,11 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@arrirpc/codegen-utils@0.54.0':
-    resolution: {integrity: sha512-HTsw3rLHTadbQ9WOJreYKQA34TdRDm/yN+OhzCVSpBTsrV4Q1R0O7AexKHH/Z9VFc+SYAE7hU39xlUTfzdxKaQ==}
+  '@arrirpc/codegen-utils@0.55.0':
+    resolution: {integrity: sha512-kAn9NCYmMKd/+VApXzuWK0I2QEnbNpA4ZqxetswakygIfjuiMz17y3COe2H25ZIFLuhVstmPDrEw9dfv9G+G0g==}
 
-  '@arrirpc/schema@0.54.0':
-    resolution: {integrity: sha512-Sl7eMDhuR3xVvQjUwVjYoaYSiNS7kbqRKvEplYbK9Po3bV0qiNP7Bt9wLQS9OI11cJQV6ugxLE2Z3/1foDHAeQ==}
+  '@arrirpc/schema@0.55.0':
+    resolution: {integrity: sha512-/cky99nFVPC8kWSaiXruJUvqmxa6C8AwscrlR5LvUJIGPtGyyX7CufKZ7dap0yYjij/VdigZaP215r7QGzaJGA==}
 
   '@babel/code-frame@7.24.7':
     resolution: {integrity: sha512-BcYH1CVJBO9tvyIZ2jVeXgSIMvGZ2FDRvDdOIVQyuklNKSsx+eppDEBq/g47Ayw+RqNFE+URvOShmf+f/qwAlA==}
@@ -987,8 +987,8 @@ packages:
   jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
 
-  jtd-utils@0.54.0:
-    resolution: {integrity: sha512-mwGdLYI8OBAhzIwdKMPEPUR+sGFBXkffadU4dT28zYY7TIJ6Dz9WRm+VT0xd7sSxsEr/lUURNVsBJ3BPJEtLqg==}
+  jtd-utils@0.55.0:
+    resolution: {integrity: sha512-uaNtUVToZIHzgg7u0mjRjeudWkk999vEBX3BKZff132HRWkfmzCncIFTJbSq4oq9FzjOy3ncEUuy/f36tMK/cg==}
 
   lilconfig@3.1.2:
     resolution: {integrity: sha512-eop+wDAvpItUys0FWkHIKeC9ybYrTGbU41U5K7+bttZZeohvnY7M9dZ5kB21GNWiFT2q1OoPTvncPCgSOVO5ow==}
@@ -1577,15 +1577,15 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@arrirpc/codegen-utils@0.54.0':
+  '@arrirpc/codegen-utils@0.55.0':
     dependencies:
-      '@arrirpc/schema': 0.54.0
-      jtd-utils: 0.54.0
+      '@arrirpc/schema': 0.55.0
+      jtd-utils: 0.55.0
       scule: 1.3.0
 
-  '@arrirpc/schema@0.54.0':
+  '@arrirpc/schema@0.55.0':
     dependencies:
-      jtd-utils: 0.54.0
+      jtd-utils: 0.55.0
       scule: 1.3.0
       uncrypto: 0.1.3
 
@@ -2460,7 +2460,7 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  jtd-utils@0.54.0: {}
+  jtd-utils@0.55.0: {}
 
   lilconfig@3.1.2: {}
 
