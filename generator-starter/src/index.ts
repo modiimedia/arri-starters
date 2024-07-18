@@ -1,6 +1,6 @@
 // This library contains other useful functions to assist in creating a generator
 // See https://github.com/modiimedia/arri/tree/master/packages/arri-codegen/utils for details
-import { defineClientGeneratorPlugin } from "@arrirpc/codegen-utils";
+import { defineGeneratorPlugin } from "@arrirpc/codegen-utils";
 
 // if you choose to export this be sure to give it a unique name
 interface Options {
@@ -10,7 +10,7 @@ interface Options {
     outputFile: string;
 }
 
-export default defineClientGeneratorPlugin((options: Options) => {
+export default defineGeneratorPlugin((options: Options) => {
     return {
         options,
         generator: async (def, isDevServer) => {

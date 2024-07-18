@@ -23,12 +23,12 @@
   },
   "devDependencies": {
     "@arrirpc/eslint-plugin": "^0.55.0",
-    "@eslint/js": "^9.6.0",
+    "@eslint/js": "^9.7.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.3.2",
+    "prettier": "^3.3.3",
     "typescript": "^5.5.3",
-    "typescript-eslint": "7.15.0"
+    "typescript-eslint": "7.16.1"
   },
   "packageManager": "pnpm@9.1.0+sha256.22e36fba7f4880ecf749a5ca128b8435da085ecd49575e7fb9e64d6bf4fad394"
 }
