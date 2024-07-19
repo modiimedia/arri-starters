@@ -14,7 +14,7 @@ export default defineGeneratorPlugin((options: Options) => {
     return {
         options,
         generator: async (def, isDevServer) => {
-            // generating something using the app definition and the specified options
+            // generate something using the app definition and the specified options
         },
     };
 });
