@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@arrirpc/codegen-utils':
-        specifier: ^0.57.4
-        version: 0.57.4
+        specifier: ^0.57.8
+        version: 0.57.8
     devDependencies:
       '@types/node':
         specifier: ^22.0.0
@@ -34,11 +34,11 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@arrirpc/codegen-utils@0.57.4':
-    resolution: {integrity: sha512-J1KuhJNzVCxkZRtHi6WBaEMF7S/9eSCFzMr9O28uY9IlWEmcX89ijd0ODqVUweOBK0ZUo/rlaZeoeBA0UrlN2w==}
+  '@arrirpc/codegen-utils@0.57.8':
+    resolution: {integrity: sha512-9AAue0Pc5TJT2VSdZYN5fW2/atjaqsKBJ7Pe6d8YmxdCFhbxO3vmsTAV1H9xofVmEgCbRNxF4VD4lOJskRdcCw==}
 
-  '@arrirpc/schema@0.57.4':
-    resolution: {integrity: sha512-MGSZuJ6Foqy0Ua14Nybfskq4lahZIlO2ewpOoZ4U1ut4Jo1y4FHlHOcdzhv5+n6FVMZ4U/2+s80uQ2+YVawq4A==}
+  '@arrirpc/schema@0.57.8':
+    resolution: {integrity: sha512-ZwvGTHVERUyY0DHWjt2xARfmde+f3VuWobyOERRqu76odr3rJSkc4yXiWQABkUEaVxyrjA3/4UgnsljSrPDU4w==}
 
   '@babel/code-frame@7.24.7':
     resolution: {integrity: sha512-BcYH1CVJBO9tvyIZ2jVeXgSIMvGZ2FDRvDdOIVQyuklNKSsx+eppDEBq/g47Ayw+RqNFE+URvOShmf+f/qwAlA==}
@@ -1101,8 +1101,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  jtd-utils@0.57.4:
-    resolution: {integrity: sha512-u4SqtVgNs7wgArBoFYVVuGsC6lUB8EAxDw7I/pXjgkZalXrR2Ez+Bk1a/GhlWzpWUdcmEAAARsZATzKYQzfT9A==}
+  jtd-utils@0.57.8:
+    resolution: {integrity: sha512-1DtzJTS0M8TuXC9+SNOaYzths9Iu8k4hg6Z3gRAQEQpCMDHEwmSuA1IBckLdOJqx/Wo3idgp01BbJcS44JZPhg==}
 
   lilconfig@3.1.2:
     resolution: {integrity: sha512-eop+wDAvpItUys0FWkHIKeC9ybYrTGbU41U5K7+bttZZeohvnY7M9dZ5kB21GNWiFT2q1OoPTvncPCgSOVO5ow==}
@@ -1654,15 +1654,15 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@arrirpc/codegen-utils@0.57.4':
+  '@arrirpc/codegen-utils@0.57.8':
     dependencies:
-      '@arrirpc/schema': 0.57.4
-      jtd-utils: 0.57.4
+      '@arrirpc/schema': 0.57.8
+      jtd-utils: 0.57.8
       scule: 1.3.0
 
-  '@arrirpc/schema@0.57.4':
+  '@arrirpc/schema@0.57.8':
     dependencies:
-      jtd-utils: 0.57.4
+      jtd-utils: 0.57.8
       scule: 1.3.0
       uncrypto: 0.1.3
 
@@ -2593,7 +2593,7 @@ snapshots:
 
   json5@2.2.3: {}
 
-  jtd-utils@0.57.4: {}
+  jtd-utils@0.57.8: {}
 
   lilconfig@3.1.2: {}
 
