@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-object-type */
 import "@arrirpc/server";
 
 declare module "@arrirpc/server" {
