@@ -17,14 +17,14 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@arrirpc/schema": "^0.60.2",
-    "@arrirpc/server": "^0.60.2"
+    "@arrirpc/schema": "^0.60.3",
+    "@arrirpc/server": "^0.60.3"
   },
   "devDependencies": {
-    "@arrirpc/eslint-plugin": "^0.60.2",
+    "@arrirpc/eslint-plugin": "^0.60.3",
     "@eslint/js": "^9.9.0",
     "@types/node": "^22.4.0",
-    "arri": "^0.60.2",
+    "arri": "^0.60.3",
     "eslint": "^9.9.0",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.3.3",

@@ -9,15 +9,15 @@ importers:
   .:
     dependencies:
       '@arrirpc/schema':
-        specifier: ^0.60.2
-        version: 0.60.2
+        specifier: ^0.60.3
+        version: 0.60.3
       '@arrirpc/server':
-        specifier: ^0.60.2
-        version: 0.60.2
+        specifier: ^0.60.3
+        version: 0.60.3
     devDependencies:
       '@arrirpc/eslint-plugin':
-        specifier: ^0.60.2
-        version: 0.60.2(eslint@9.9.0(jiti@1.21.6))
+        specifier: ^0.60.3
+        version: 0.60.3(eslint@9.9.0(jiti@1.21.6))
       '@eslint/js':
         specifier: ^9.9.0
         version: 9.9.0
@@ -25,8 +25,8 @@ importers:
         specifier: ^22.4.0
         version: 22.4.0
       arri:
-        specifier: ^0.60.2
-        version: 0.60.2
+        specifier: ^0.60.3
+        version: 0.60.3
       eslint:
         specifier: ^9.9.0
         version: 9.9.0(jiti@1.21.6)
@@ -45,34 +45,34 @@ importers:
 
 packages:
 
-  '@arrirpc/codegen-dart@0.60.2':
-    resolution: {integrity: sha512-xl4vilZWnyhWMZWj1DXXAqadxBWz3B/TMZQwPzlOZWxRMJY7ZnpQyfFZFN8+9gGPp/wEa5PyHUlxiSfqC6eGZQ==}
+  '@arrirpc/codegen-dart@0.60.3':
+    resolution: {integrity: sha512-xNNrrrk6Uum7DBE/N6BUZW8U/IhJWk3sMo2gp6rCQow/1u8ZDC9aoGjX6BTd76sDWFcz56nE8f5m2VJa2xui6A==}
 
-  '@arrirpc/codegen-kotlin@0.60.2':
-    resolution: {integrity: sha512-ZBzE7rW3biYmX/MGySlILmS2pcrcSY00EFwbY3YppdXUPyhhvxDZkHepNG3xEjaoqmNF1otH1FO2K60Ah3zF5w==}
+  '@arrirpc/codegen-kotlin@0.60.3':
+    resolution: {integrity: sha512-6rQ4RbrY0uP3U6+IPBnLulkVjzZqKzVMhSz9E3H1yQjypId9nJM/IYMfRNjwMQnfoVabnuzzJrgBPW4H62vIQQ==}
 
-  '@arrirpc/codegen-rust@0.60.2':
-    resolution: {integrity: sha512-4Qa5wnUfaavNhMfOOeQ95mep34tA6nrEtOnyu1mvZBWuiTTjAjnsdcdfMururlKMSo8YMs3ZzQStQvBTUVU+oQ==}
+  '@arrirpc/codegen-rust@0.60.3':
+    resolution: {integrity: sha512-+7q4+uQYcL8ZKYkJW79PL0r6dcuSwpPNkS6MKRiqx+M9aYJYki9623zq9OqAl5e7A3u1lZHXfGKkIHSAlqoOJw==}
 
-  '@arrirpc/codegen-swift@0.60.2':
-    resolution: {integrity: sha512-X5FDs5mZSSK6x81z3ETxc5QG2YyrKhQWQ+up+FySPhRvVfU0OIQlPQXKViEbui6fbzsHGYug8+mnxab3bK2k3A==}
+  '@arrirpc/codegen-swift@0.60.3':
+    resolution: {integrity: sha512-Zm9ka0b+2ZYF03aMFR7jlNgsAqAGi7A4JHCEjYCUsXgUCWdUG0slDcG+KpTDgHitIw4lBbE5VnXcSA7GVCUYWQ==}
 
-  '@arrirpc/codegen-ts@0.60.2':
-    resolution: {integrity: sha512-MYZGtfypfQtpOvu21Vd+GYzM4v3uyvVZ0Zps+QOa9FTB6qZcRgV1EoMLPL6QrozykoRYe6ncCJN154FyjCWtDQ==}
+  '@arrirpc/codegen-ts@0.60.3':
+    resolution: {integrity: sha512-gUN0XmctgReI2k6vqubwUUAxzNTx6Y1Oyl6TecJiX7PNyqI/p8EGkXZwogtn+um5dTJrWSVN1liOePt48+dwIA==}
 
-  '@arrirpc/codegen-utils@0.60.2':
-    resolution: {integrity: sha512-W8Y9imo4/PFsY+SpEiGCW4WvGmxnIfcK/govucKwznMt24fuBpk/MnLB7IKBk31nTofYDkakGH7EdmTuamZvmw==}
+  '@arrirpc/codegen-utils@0.60.3':
+    resolution: {integrity: sha512-ISB502XnbiqxVXrPCdnwK5GwIRreQtIdE10xwqLuEsFZzQicpyJIvz/BkVfKlK9hUZ/OTd7ktU8dNdrKoRPJRA==}
 
-  '@arrirpc/eslint-plugin@0.60.2':
-    resolution: {integrity: sha512-IDyGhSIlqOeg3/OovTG0MUpx4x2PCTMZuT+OBm0KBg9Cca+H2iyWLj9//BLBDgdpypQK4PGuXwonzPwp9YGeLA==}
+  '@arrirpc/eslint-plugin@0.60.3':
+    resolution: {integrity: sha512-N0/IiWFM3GIR8EqagDA/9XB1nUmOSyTnAItqJ9x3cCeu6Pcrm+01Zl+wCfW9O/iTeO4NCutvz3CKQBznj703Mw==}
     peerDependencies:
       eslint: '>=8.0.0'
 
-  '@arrirpc/schema@0.60.2':
-    resolution: {integrity: sha512-eGpWogCzb9YdXrv6k7IK3XX82RSzrSYSD7LMDRuqKSwpl5OiqPUQdy+qRg0WrlOyMVE/+1glPsmzeeGF3AADgA==}
+  '@arrirpc/schema@0.60.3':
+    resolution: {integrity: sha512-DB9nrrCkVmrO0di2P4lOKGiXR3PRR5uQAS2VzBe7yVujHkbHKviZpavrNSdYciOU+phk7hisFj6nOU1q2/2uNw==}
 
-  '@arrirpc/server@0.60.2':
-    resolution: {integrity: sha512-IzyxcNVX9McQfuqiHQTEtUxn0456Wwjb5bPIx9tx87H1hSURtaJQqMA6cdCuaY8cFOaqOBwx8EUQ2sjs3VQr8A==}
+  '@arrirpc/server@0.60.3':
+    resolution: {integrity: sha512-5bIdtQsbsTDiC8pOFGeimwRSdOC1KJcQn9dcz0ta5iUq7mxxiisPY5peKP0Z0+ePD7QLAgIf7IMmtJBtTguO1A==}
 
   '@esbuild/aix-ppc64@0.23.1':
     resolution: {integrity: sha512-6VhYk1diRqrhBAqpJEdjASR/+WVRtfjpqKuNw11cLiaWpAT/Uu+nokB+UJnevzy/P9C/ty6AOe0dwueMrGh/iQ==}
@@ -456,8 +456,8 @@ packages:
     resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
     engines: {node: '>=8'}
 
-  arri@0.60.2:
-    resolution: {integrity: sha512-hHvfteND+FpBxowz0JE+rtX5K57SjQLj3uhAelrv2yCWZHKO5WsXBZKiZ7nAkAoHyNskOnC52c9ySWHVxSjIIQ==}
+  arri@0.60.3:
+    resolution: {integrity: sha512-bIDFuBQFczDjR2OLqNaif2tGZF25+FSNBZYFtmZsJ2M9xXj0455dytV2RuaDz0RyXb8Q6EGhwxw/2fhhnQV6Jw==}
     hasBin: true
 
   balanced-match@1.0.2:
@@ -817,8 +817,8 @@ packages:
   json-stable-stringify-without-jsonify@1.0.1:
     resolution: {integrity: sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==}
 
-  jtd-utils@0.60.2:
-    resolution: {integrity: sha512-zsAQoOc5iHxxKKciKx2SYjFNJUPRo5rWQlK/HE5/Ttc+CfOgDmdzm7L+tPsTRH7SYBERAxMhxtUmIS4r2QT1hg==}
+  jtd-utils@0.60.3:
+    resolution: {integrity: sha512-zcQVEl8n5w8sa43QVSSTXZ8d3u6WH4WjjxWxhMX5JLU1nrp/cby8/RJnvFKt95TOB7EP8lIOrn5Sg5up59zTZw==}
 
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
@@ -1147,53 +1147,53 @@ packages:
 
 snapshots:
 
-  '@arrirpc/codegen-dart@0.60.2':
+  '@arrirpc/codegen-dart@0.60.3':
     dependencies:
-      '@arrirpc/codegen-utils': 0.60.2
+      '@arrirpc/codegen-utils': 0.60.3
       pathe: 1.1.2
 
-  '@arrirpc/codegen-kotlin@0.60.2':
+  '@arrirpc/codegen-kotlin@0.60.3':
     dependencies:
-      '@arrirpc/codegen-utils': 0.60.2
+      '@arrirpc/codegen-utils': 0.60.3
 
-  '@arrirpc/codegen-rust@0.60.2':
+  '@arrirpc/codegen-rust@0.60.3':
     dependencies:
-      '@arrirpc/codegen-utils': 0.60.2
+      '@arrirpc/codegen-utils': 0.60.3
       pathe: 1.1.2
 
-  '@arrirpc/codegen-swift@0.60.2':
+  '@arrirpc/codegen-swift@0.60.3':
     dependencies:
-      '@arrirpc/codegen-utils': 0.60.2
+      '@arrirpc/codegen-utils': 0.60.3
 
-  '@arrirpc/codegen-ts@0.60.2':
+  '@arrirpc/codegen-ts@0.60.3':
     dependencies:
-      '@arrirpc/codegen-utils': 0.60.2
+      '@arrirpc/codegen-utils': 0.60.3
       prettier: 3.3.3
 
-  '@arrirpc/codegen-utils@0.60.2':
+  '@arrirpc/codegen-utils@0.60.3':
     dependencies:
-      jtd-utils: 0.60.2
+      jtd-utils: 0.60.3
       scule: 1.3.0
 
-  '@arrirpc/eslint-plugin@0.60.2(eslint@9.9.0(jiti@1.21.6))':
+  '@arrirpc/eslint-plugin@0.60.3(eslint@9.9.0(jiti@1.21.6))':
     dependencies:
       eslint: 9.9.0(jiti@1.21.6)
 
-  '@arrirpc/schema@0.60.2':
+  '@arrirpc/schema@0.60.3':
     dependencies:
-      jtd-utils: 0.60.2
+      jtd-utils: 0.60.3
       scule: 1.3.0
       uncrypto: 0.1.3
 
-  '@arrirpc/server@0.60.2':
+  '@arrirpc/server@0.60.3':
     dependencies:
-      '@arrirpc/codegen-dart': 0.60.2
-      '@arrirpc/codegen-kotlin': 0.60.2
-      '@arrirpc/codegen-ts': 0.60.2
-      '@arrirpc/codegen-utils': 0.60.2
-      '@arrirpc/schema': 0.60.2
+      '@arrirpc/codegen-dart': 0.60.3
+      '@arrirpc/codegen-kotlin': 0.60.3
+      '@arrirpc/codegen-ts': 0.60.3
+      '@arrirpc/codegen-utils': 0.60.3
+      '@arrirpc/schema': 0.60.3
       '@types/source-map-support': 0.5.10
-      arri: 0.60.2
+      arri: 0.60.3
       crossws: 0.2.4
       h3: 1.12.0
       scule: 1.3.0
@@ -1535,15 +1535,15 @@ snapshots:
 
   array-union@2.1.0: {}
 
-  arri@0.60.2:
+  arri@0.60.3:
     dependencies:
-      '@arrirpc/codegen-dart': 0.60.2
-      '@arrirpc/codegen-kotlin': 0.60.2
-      '@arrirpc/codegen-rust': 0.60.2
-      '@arrirpc/codegen-swift': 0.60.2
-      '@arrirpc/codegen-ts': 0.60.2
-      '@arrirpc/codegen-utils': 0.60.2
-      '@arrirpc/schema': 0.60.2
+      '@arrirpc/codegen-dart': 0.60.3
+      '@arrirpc/codegen-kotlin': 0.60.3
+      '@arrirpc/codegen-rust': 0.60.3
+      '@arrirpc/codegen-swift': 0.60.3
+      '@arrirpc/codegen-ts': 0.60.3
+      '@arrirpc/codegen-utils': 0.60.3
+      '@arrirpc/schema': 0.60.3
       '@joshmossas/listhen': 1.10.1
       '@joshmossas/ofetch': 1.3.5
       c12: 1.11.1
@@ -1957,7 +1957,7 @@ snapshots:
 
   json-stable-stringify-without-jsonify@1.0.1: {}
 
-  jtd-utils@0.60.2: {}
+  jtd-utils@0.60.3: {}
 
   keyv@4.5.4:
     dependencies:
