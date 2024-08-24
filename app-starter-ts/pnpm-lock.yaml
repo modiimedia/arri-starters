@@ -9,18 +9,18 @@ importers:
   .:
     dependencies:
       '@arrirpc/schema':
-        specifier: ^0.60.3
-        version: 0.60.3
+        specifier: ^0.61.0
+        version: 0.61.0
       '@arrirpc/server':
-        specifier: ^0.60.3
-        version: 0.60.3
+        specifier: ^0.61.0
+        version: 0.61.0
     devDependencies:
       '@types/node':
-        specifier: ^22.4.0
-        version: 22.4.0
+        specifier: ^22.5.0
+        version: 22.5.0
       arri:
-        specifier: ^0.60.3
-        version: 0.60.3
+        specifier: ^0.61.0
+        version: 0.61.0
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -30,29 +30,29 @@ importers:
 
 packages:
 
-  '@arrirpc/codegen-dart@0.60.3':
-    resolution: {integrity: sha512-xNNrrrk6Uum7DBE/N6BUZW8U/IhJWk3sMo2gp6rCQow/1u8ZDC9aoGjX6BTd76sDWFcz56nE8f5m2VJa2xui6A==}
+  '@arrirpc/codegen-dart@0.61.0':
+    resolution: {integrity: sha512-bF/r3YGUNlXF5xsxQd50c7aMx0/mm4O5nPPa+r0Pu2n8YeoSATRYAlX3FMORj8QP+nOc6nYqQ6ca18wZeR+D8Q==}
 
-  '@arrirpc/codegen-kotlin@0.60.3':
-    resolution: {integrity: sha512-6rQ4RbrY0uP3U6+IPBnLulkVjzZqKzVMhSz9E3H1yQjypId9nJM/IYMfRNjwMQnfoVabnuzzJrgBPW4H62vIQQ==}
+  '@arrirpc/codegen-kotlin@0.61.0':
+    resolution: {integrity: sha512-GWfeyUk0JcrQQsWnywUs4yyrDWkrLkzh3cUWoo1fejZRedEwpcuMZTnzOaDDS6z4lS1BMiQ0n9frMEO1BHIlBg==}
 
-  '@arrirpc/codegen-rust@0.60.3':
-    resolution: {integrity: sha512-+7q4+uQYcL8ZKYkJW79PL0r6dcuSwpPNkS6MKRiqx+M9aYJYki9623zq9OqAl5e7A3u1lZHXfGKkIHSAlqoOJw==}
+  '@arrirpc/codegen-rust@0.61.0':
+    resolution: {integrity: sha512-LTCR2e5ODvN31R+kRxVAOy8XhSi8uvbQ9S9ghnTWNQsI8m9jxuDKnQWVTqQBtNuQNZCB8HFzdnGFL0DMsrXfxg==}
 
-  '@arrirpc/codegen-swift@0.60.3':
-    resolution: {integrity: sha512-Zm9ka0b+2ZYF03aMFR7jlNgsAqAGi7A4JHCEjYCUsXgUCWdUG0slDcG+KpTDgHitIw4lBbE5VnXcSA7GVCUYWQ==}
+  '@arrirpc/codegen-swift@0.61.0':
+    resolution: {integrity: sha512-/MPlV3Nek5C2cDxdruAAgg22HsfIh7qDG7RZ+Fz+v2Tnza/a89BUywTez8dW01/kWYcaFYD5vvrF8a6TVli+SA==}
 
-  '@arrirpc/codegen-ts@0.60.3':
-    resolution: {integrity: sha512-gUN0XmctgReI2k6vqubwUUAxzNTx6Y1Oyl6TecJiX7PNyqI/p8EGkXZwogtn+um5dTJrWSVN1liOePt48+dwIA==}
+  '@arrirpc/codegen-ts@0.61.0':
+    resolution: {integrity: sha512-PHti3WroEvgFU1vW3Xf2UMsF0VLXk+1uwQcnI+bQbFXUGv9/j2jjiCd3rLkU6vt1oWeWIVgcQpuqLPpsjeNYpQ==}
 
-  '@arrirpc/codegen-utils@0.60.3':
-    resolution: {integrity: sha512-ISB502XnbiqxVXrPCdnwK5GwIRreQtIdE10xwqLuEsFZzQicpyJIvz/BkVfKlK9hUZ/OTd7ktU8dNdrKoRPJRA==}
+  '@arrirpc/codegen-utils@0.61.0':
+    resolution: {integrity: sha512-VWskILJBEf4XhXab41mUfWSXFPt2OU4oOq6/nvcjupmReLnkNa3fZzJcRMwXuqQCf5MxRf17hs87yDQv+++a9Q==}
 
-  '@arrirpc/schema@0.60.3':
-    resolution: {integrity: sha512-DB9nrrCkVmrO0di2P4lOKGiXR3PRR5uQAS2VzBe7yVujHkbHKviZpavrNSdYciOU+phk7hisFj6nOU1q2/2uNw==}
+  '@arrirpc/schema@0.61.0':
+    resolution: {integrity: sha512-ejkvvJmZJ+beYdLhv9/fu0rXbBBz61i5hmDRUYWijeFM0becO/UiorINxFFpoJ7kHOPuLS8o/2AF0Jy8K+3yxA==}
 
-  '@arrirpc/server@0.60.3':
-    resolution: {integrity: sha512-5bIdtQsbsTDiC8pOFGeimwRSdOC1KJcQn9dcz0ta5iUq7mxxiisPY5peKP0Z0+ePD7QLAgIf7IMmtJBtTguO1A==}
+  '@arrirpc/server@0.61.0':
+    resolution: {integrity: sha512-C7Iw0qXs+Yz62mi20WdTUFQfgqbLjplXsyzwWfUYXWaM1o7ct03pWQ7PFwoVCmNHLjepX3VUWYjkpDZfvm6JeA==}
 
   '@esbuild/aix-ppc64@0.23.1':
     resolution: {integrity: sha512-6VhYk1diRqrhBAqpJEdjASR/+WVRtfjpqKuNw11cLiaWpAT/Uu+nokB+UJnevzy/P9C/ty6AOe0dwueMrGh/iQ==}
@@ -303,8 +303,8 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@types/node@22.4.0':
-    resolution: {integrity: sha512-49AbMDwYUz7EXxKU/r7mXOsxwFr4BYbvB7tWYxVuLdb2ibd30ijjXINSMAHiEEZk5PCRBmW1gUeisn2VMKt3cQ==}
+  '@types/node@22.5.0':
+    resolution: {integrity: sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==}
 
   '@types/source-map-support@0.5.10':
     resolution: {integrity: sha512-tgVP2H469x9zq34Z0m/fgPewGhg/MLClalNOiPIzQlXrSS2YrKu/xCdSCKnEDwkFha51VKEKB6A9wW26/ZNwzA==}
@@ -326,8 +326,8 @@ packages:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
 
-  arri@0.60.3:
-    resolution: {integrity: sha512-bIDFuBQFczDjR2OLqNaif2tGZF25+FSNBZYFtmZsJ2M9xXj0455dytV2RuaDz0RyXb8Q6EGhwxw/2fhhnQV6Jw==}
+  arri@0.61.0:
+    resolution: {integrity: sha512-fOrBXgxjSctSBLP6SQWQ/X8sH3QNWuyUmnyPS2dg3/3nPAHMrR/LZuy6kvlxvpKqs5QVX9JgIjmRJ2zUbtSRsw==}
     hasBin: true
 
   binary-extensions@2.3.0:
@@ -371,8 +371,8 @@ packages:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
-  cookie-es@1.2.1:
-    resolution: {integrity: sha512-ilTPDuxhZX44BSzzRB58gvSY2UevZKQM9fjisn7Z+NJ92CtSU6kO1+22ZN/agbEJANFjK85EiJJbi/gQv18OXA==}
+  cookie-es@1.2.2:
+    resolution: {integrity: sha512-+W7VmiVINB+ywl1HGXJXmrqkOhpKrIiVZV6tQuV54ZyQC7MMuBt81Vc336GMLoHBq5hV/F9eXgt5Mnx0Rha5Fg==}
 
   cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
@@ -472,8 +472,8 @@ packages:
     resolution: {integrity: sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==}
     engines: {node: '>=16.17.0'}
 
-  ignore@5.3.1:
-    resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
+  ignore@5.3.2:
+    resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
   iron-webcrypto@1.2.1:
@@ -524,8 +524,8 @@ packages:
     resolution: {integrity: sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==}
     hasBin: true
 
-  jtd-utils@0.60.3:
-    resolution: {integrity: sha512-zcQVEl8n5w8sa43QVSSTXZ8d3u6WH4WjjxWxhMX5JLU1nrp/cby8/RJnvFKt95TOB7EP8lIOrn5Sg5up59zTZw==}
+  jtd-utils@0.61.0:
+    resolution: {integrity: sha512-dTM2dW3ukAQy3vSESl/ELzGkph8ZbQtbCs0Xbo/Nm/pRgp35EwBBl2TegLdYJtsX3pzPpZw7iCK0Jf1b3coTHA==}
 
   magic-string@0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
@@ -537,8 +537,8 @@ packages:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
 
-  micromatch@4.0.7:
-    resolution: {integrity: sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==}
+  micromatch@4.0.8:
+    resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
 
   mime@3.0.0:
@@ -622,8 +622,8 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  pkg-types@1.1.3:
-    resolution: {integrity: sha512-+JrgthZG6m3ckicaOB74TwQ+tBWsFl3qVQg7mN8ulwSOElJ7gBhKzj2VkCPnZ4NlF6kEquYU+RIYNVAvzd54UA==}
+  pkg-types@1.2.0:
+    resolution: {integrity: sha512-+ifYuSSqOQ8CqP4MbZA5hDpb97n3E8SVWdJe+Wms9kj745lmd3b7EZJiqvmLwAlmRfjrI7Hi5z3kdBJ93lFNPA==}
 
   prettier@3.3.3:
     resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
@@ -714,8 +714,8 @@ packages:
   uncrypto@0.1.3:
     resolution: {integrity: sha512-Ql87qFHB3s/De2ClA9e0gsnS6zXG27SkTiSJwjCc9MebbfapQfuPzumMIUMi38ezPZVNFcHI9sUIepeQfw8J8Q==}
 
-  undici-types@6.19.6:
-    resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
+  undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
   unenv@1.10.0:
     resolution: {integrity: sha512-wY5bskBQFL9n3Eca5XnhH6KbUo/tfvkwm9OpcdCvLaeA7piBNbavbOKJySEwQ1V0RH6HvNlSAFRTpvTqgKRQXQ==}
@@ -741,49 +741,49 @@ packages:
 
 snapshots:
 
-  '@arrirpc/codegen-dart@0.60.3':
+  '@arrirpc/codegen-dart@0.61.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.60.3
+      '@arrirpc/codegen-utils': 0.61.0
       pathe: 1.1.2
 
-  '@arrirpc/codegen-kotlin@0.60.3':
+  '@arrirpc/codegen-kotlin@0.61.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.60.3
+      '@arrirpc/codegen-utils': 0.61.0
 
-  '@arrirpc/codegen-rust@0.60.3':
+  '@arrirpc/codegen-rust@0.61.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.60.3
+      '@arrirpc/codegen-utils': 0.61.0
       pathe: 1.1.2
 
-  '@arrirpc/codegen-swift@0.60.3':
+  '@arrirpc/codegen-swift@0.61.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.60.3
+      '@arrirpc/codegen-utils': 0.61.0
 
-  '@arrirpc/codegen-ts@0.60.3':
+  '@arrirpc/codegen-ts@0.61.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.60.3
+      '@arrirpc/codegen-utils': 0.61.0
       prettier: 3.3.3
 
-  '@arrirpc/codegen-utils@0.60.3':
+  '@arrirpc/codegen-utils@0.61.0':
     dependencies:
-      jtd-utils: 0.60.3
+      jtd-utils: 0.61.0
       scule: 1.3.0
 
-  '@arrirpc/schema@0.60.3':
+  '@arrirpc/schema@0.61.0':
     dependencies:
-      jtd-utils: 0.60.3
+      jtd-utils: 0.61.0
       scule: 1.3.0
       uncrypto: 0.1.3
 
-  '@arrirpc/server@0.60.3':
+  '@arrirpc/server@0.61.0':
     dependencies:
-      '@arrirpc/codegen-dart': 0.60.3
-      '@arrirpc/codegen-kotlin': 0.60.3
-      '@arrirpc/codegen-ts': 0.60.3
-      '@arrirpc/codegen-utils': 0.60.3
-      '@arrirpc/schema': 0.60.3
+      '@arrirpc/codegen-dart': 0.61.0
+      '@arrirpc/codegen-kotlin': 0.61.0
+      '@arrirpc/codegen-ts': 0.61.0
+      '@arrirpc/codegen-utils': 0.61.0
+      '@arrirpc/schema': 0.61.0
       '@types/source-map-support': 0.5.10
-      arri: 0.60.3
+      arri: 0.61.0
       crossws: 0.2.4
       h3: 1.12.0
       scule: 1.3.0
@@ -936,7 +936,7 @@ snapshots:
   '@parcel/watcher-wasm@2.4.1':
     dependencies:
       is-glob: 4.0.3
-      micromatch: 4.0.7
+      micromatch: 4.0.8
 
   '@parcel/watcher-win32-arm64@2.4.1':
     optional: true
@@ -951,7 +951,7 @@ snapshots:
     dependencies:
       detect-libc: 1.0.3
       is-glob: 4.0.3
-      micromatch: 4.0.7
+      micromatch: 4.0.8
       node-addon-api: 7.1.1
     optionalDependencies:
       '@parcel/watcher-android-arm64': 2.4.1
@@ -969,9 +969,9 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@types/node@22.4.0':
+  '@types/node@22.5.0':
     dependencies:
-      undici-types: 6.19.6
+      undici-types: 6.19.8
 
   '@types/source-map-support@0.5.10':
     dependencies:
@@ -988,15 +988,15 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  arri@0.60.3:
+  arri@0.61.0:
     dependencies:
-      '@arrirpc/codegen-dart': 0.60.3
-      '@arrirpc/codegen-kotlin': 0.60.3
-      '@arrirpc/codegen-rust': 0.60.3
-      '@arrirpc/codegen-swift': 0.60.3
-      '@arrirpc/codegen-ts': 0.60.3
-      '@arrirpc/codegen-utils': 0.60.3
-      '@arrirpc/schema': 0.60.3
+      '@arrirpc/codegen-dart': 0.61.0
+      '@arrirpc/codegen-kotlin': 0.61.0
+      '@arrirpc/codegen-rust': 0.61.0
+      '@arrirpc/codegen-swift': 0.61.0
+      '@arrirpc/codegen-ts': 0.61.0
+      '@arrirpc/codegen-utils': 0.61.0
+      '@arrirpc/schema': 0.61.0
       '@joshmossas/listhen': 1.10.1
       '@joshmossas/ofetch': 1.3.5
       c12: 1.11.1
@@ -1035,7 +1035,7 @@ snapshots:
       ohash: 1.1.3
       pathe: 1.1.2
       perfect-debounce: 1.0.0
-      pkg-types: 1.1.3
+      pkg-types: 1.2.0
       rc9: 2.1.2
 
   chokidar@3.6.0:
@@ -1066,7 +1066,7 @@ snapshots:
 
   consola@3.2.3: {}
 
-  cookie-es@1.2.1: {}
+  cookie-es@1.2.2: {}
 
   cross-spawn@7.0.3:
     dependencies:
@@ -1140,7 +1140,7 @@ snapshots:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.7
+      micromatch: 4.0.8
 
   fastq@1.17.1:
     dependencies:
@@ -1180,14 +1180,14 @@ snapshots:
     dependencies:
       '@sindresorhus/merge-streams': 2.3.0
       fast-glob: 3.3.2
-      ignore: 5.3.1
+      ignore: 5.3.2
       path-type: 5.0.0
       slash: 5.1.0
       unicorn-magic: 0.1.0
 
   h3@1.12.0:
     dependencies:
-      cookie-es: 1.2.1
+      cookie-es: 1.2.2
       crossws: 0.2.4
       defu: 6.1.4
       destr: 2.0.3
@@ -1204,7 +1204,7 @@ snapshots:
 
   human-signals@5.0.0: {}
 
-  ignore@5.3.1: {}
+  ignore@5.3.2: {}
 
   iron-webcrypto@1.2.1: {}
 
@@ -1240,7 +1240,7 @@ snapshots:
 
   jiti@1.21.6: {}
 
-  jtd-utils@0.60.3: {}
+  jtd-utils@0.61.0: {}
 
   magic-string@0.25.9:
     dependencies:
@@ -1250,7 +1250,7 @@ snapshots:
 
   merge2@1.4.1: {}
 
-  micromatch@4.0.7:
+  micromatch@4.0.8:
     dependencies:
       braces: 3.0.3
       picomatch: 2.3.1
@@ -1276,7 +1276,7 @@ snapshots:
     dependencies:
       acorn: 8.12.1
       pathe: 1.1.2
-      pkg-types: 1.1.3
+      pkg-types: 1.2.0
       ufo: 1.5.4
 
   node-addon-api@7.1.1: {}
@@ -1297,7 +1297,7 @@ snapshots:
       consola: 3.2.3
       execa: 8.0.1
       pathe: 1.1.2
-      pkg-types: 1.1.3
+      pkg-types: 1.2.0
       ufo: 1.5.4
 
   ohash@1.1.3: {}
@@ -1318,7 +1318,7 @@ snapshots:
 
   picomatch@2.3.1: {}
 
-  pkg-types@1.1.3:
+  pkg-types@1.2.0:
     dependencies:
       confbox: 0.1.7
       mlly: 1.7.1
@@ -1395,7 +1395,7 @@ snapshots:
 
   uncrypto@0.1.3: {}
 
-  undici-types@6.19.6: {}
+  undici-types@6.19.8: {}
 
   unenv@1.10.0:
     dependencies:
