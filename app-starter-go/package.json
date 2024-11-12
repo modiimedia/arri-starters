@@ -1,0 +1,15 @@
+{
+  "name": "app-starter-go",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "arri dev",
+    "build": "arri build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "arri": "^0.63.3"
+  }
+}
