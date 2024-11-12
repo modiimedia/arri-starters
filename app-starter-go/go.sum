@@ -1,7 +1,7 @@
 github.com/iancoleman/strcase v0.3.0 h1:nTXanmYxhfFAMjZL34Ov6gkzEsSJZ5DbhxWjvSASxEI=
 github.com/iancoleman/strcase v0.3.0/go.mod h1:iwCmte+B7n89clKwxIoIXy/HfoL7AsD47ZCWhYzw7ho=
-github.com/modiimedia/arri v0.63.4 h1:E1UKEtWjQaNtURFQmR7YFJyrJhHOVqmAAqZ4TsYXYxk=
-github.com/modiimedia/arri v0.63.4/go.mod h1:KoBNf+Z33ucRZKhohlEa3qbdESF4pUtMZ4CxbFoImrg=
+github.com/modiimedia/arri v0.65.0 h1:D/k8/3sVZvA6CZHi6dXUnSfcds5VKw3SPrbN9DwEjLM=
+github.com/modiimedia/arri v0.65.0/go.mod h1:KoBNf+Z33ucRZKhohlEa3qbdESF4pUtMZ4CxbFoImrg=
 github.com/tidwall/gjson v1.18.0 h1:FIDeeyB800efLX89e5a8Y0BNH+LOngJyGrIWxG2FKQY=
 github.com/tidwall/gjson v1.18.0/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
 github.com/tidwall/match v1.1.1 h1:+Ho715JplO36QYgwN9PGYNhgZvoUSc9X2c80KVTi+GA=
