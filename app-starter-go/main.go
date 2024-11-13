@@ -17,7 +17,10 @@ func main() {
 				return nil
 			},
 		},
-		CreateRpcContext,
+		// create the RpcContext using the incoming response writer and http request
+		func(w http.ResponseWriter, r *http.Request) (*RpcContext, arri.RpcError) {
+			return &RpcContext{w: w, r: r}, nil
+		},
 	)
 
 	// register procedures on the app
