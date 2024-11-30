@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@arrirpc/codegen-utils':
-        specifier: ^0.66.0
-        version: 0.66.0
+        specifier: ^0.68.0
+        version: 0.68.0
     devDependencies:
       '@types/node':
         specifier: ^22.9.0
@@ -34,8 +34,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@arrirpc/codegen-utils@0.66.0':
-    resolution: {integrity: sha512-XqqHmjUfX8tMDRIf1Ra35R4QwxZTfLlLhTNJlBFkOXii7+JmcvdDoLPLXV5MXt6eopKVDbWKe43hn+h5W3HCsw==}
+  '@arrirpc/codegen-utils@0.68.0':
+    resolution: {integrity: sha512-FuueYljY5O9seJ/UxoPsHrZF0eCLfpWYZtMCZxvWk7nW2OSqNKEbk9SFtLJYBlddXMPJFNh6vFDP1HvSudvzFA==}
 
   '@babel/code-frame@7.26.2':
     resolution: {integrity: sha512-RJlIHRueQgwWitWgF8OdFYGZX328Ax5BCemNGlqHfplnRT9ESi8JkFlvaVYbS+UubVY6dpv87Fs2u5M29iNFVQ==}
@@ -1058,8 +1058,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  jtd-utils@0.66.0:
-    resolution: {integrity: sha512-89XOHrHI7A6mhQ81hp08awwZTbRPpPLSuiiRAYRPTjLQqBoNiqtTqq1eIeEI2XDWg/lziKtddxIbmMQXQU/x6w==}
+  jtd-utils@0.68.0:
+    resolution: {integrity: sha512-EJTkYZFrEVCfjb21gjx5jGYD1jUCja62g7TyIu62rXrKatQayaB+1K/jrYNlXDzAvK2Oc3UkkKsysQWvWeHdMg==}
 
   lilconfig@3.1.2:
     resolution: {integrity: sha512-eop+wDAvpItUys0FWkHIKeC9ybYrTGbU41U5K7+bttZZeohvnY7M9dZ5kB21GNWiFT2q1OoPTvncPCgSOVO5ow==}
@@ -1570,9 +1570,9 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@arrirpc/codegen-utils@0.66.0':
+  '@arrirpc/codegen-utils@0.68.0':
     dependencies:
-      jtd-utils: 0.66.0
+      jtd-utils: 0.68.0
       scule: 1.3.0
 
   '@babel/code-frame@7.26.2':
@@ -2433,7 +2433,7 @@ snapshots:
 
   json5@2.2.3: {}
 
-  jtd-utils@0.66.0: {}
+  jtd-utils@0.68.0: {}
 
   lilconfig@3.1.2: {}
 

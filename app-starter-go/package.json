@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "arri": "^0.66.0"
+    "arri": "^0.68.0"
   },
   "packageManager": "pnpm@9.12.3"
 }
