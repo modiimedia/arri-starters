@@ -21,7 +21,7 @@
   "devDependencies": {
     "@types/node": "^22.10.1",
     "arri": "^0.69.1",
-    "prettier": "^3.4.1",
+    "prettier": "^3.4.2",
     "typescript": "^5.7.2"
   },
   "packageManager": "pnpm@9.12.3"
