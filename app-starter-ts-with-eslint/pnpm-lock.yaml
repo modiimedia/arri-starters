@@ -9,15 +9,15 @@ importers:
   .:
     dependencies:
       '@arrirpc/schema':
-        specifier: ^0.69.1
-        version: 0.69.1
+        specifier: ^0.69.2
+        version: 0.69.2
       '@arrirpc/server':
-        specifier: ^0.69.1
-        version: 0.69.1
+        specifier: ^0.69.2
+        version: 0.69.2
     devDependencies:
       '@arrirpc/eslint-plugin':
-        specifier: ^0.69.1
-        version: 0.69.1(eslint@9.16.0(jiti@2.4.1))
+        specifier: ^0.69.2
+        version: 0.69.2(eslint@9.16.0(jiti@2.4.1))
       '@eslint/js':
         specifier: ^9.16.0
         version: 9.16.0
@@ -25,8 +25,8 @@ importers:
         specifier: ^22.10.1
         version: 22.10.1
       arri:
-        specifier: ^0.69.1
-        version: 0.69.1
+        specifier: ^0.69.2
+        version: 0.69.2
       eslint:
         specifier: ^9.16.0
         version: 9.16.0(jiti@2.4.1)
@@ -45,34 +45,34 @@ importers:
 
 packages:
 
-  '@arrirpc/codegen-dart@0.69.1':
-    resolution: {integrity: sha512-6AUe3rZJYX45O6BgnWXAG/GkPsPMgVQYae9eamyNlO/cmOugXDPGpi00X8NvgrxVxWhazHkaHTx8zyxUdTLinQ==}
+  '@arrirpc/codegen-dart@0.69.2':
+    resolution: {integrity: sha512-auCx+ADUdy4AsfDagRGIQfqHP0Z1N9llSENHHMlJTIrRotZGFR5CU49UcCw2GKigTSf1bb6rlvGbzKaDGgewtg==}
 
-  '@arrirpc/codegen-kotlin@0.69.1':
-    resolution: {integrity: sha512-Z6EgGqXF/4j4FugFBjk9ARSz7Qdqc2Az1lfYrqVTIyhKOx74Ly3hQ6CIOHZVdpCt7sZ6Bqd+gE3Os2OOoY2IRw==}
+  '@arrirpc/codegen-kotlin@0.69.2':
+    resolution: {integrity: sha512-o9eveC1CwTZymyYf6rJRktA4pp6A7YHesIBbZfF9lIvfCqZTO/Ux3sGcb60zDM7BTOJ5IkcWIdVbEL6d34NEBg==}
 
-  '@arrirpc/codegen-rust@0.69.1':
-    resolution: {integrity: sha512-T/ORviRySHBbBypqldvy5HGSVSZXs5Ir+UTnZvgse2P2456TGgYiUgu/1emW/RdvdzELHWeHyT5WQ9shnyU2tw==}
+  '@arrirpc/codegen-rust@0.69.2':
+    resolution: {integrity: sha512-VfrbWYX0zfXYzQSi4yC7g7tLUVMwQyJwA6JzVwI4cZJk8EGQjsyFtUvfrlVXateUA1Nk+qcuKDMi5RIm8aExtw==}
 
-  '@arrirpc/codegen-swift@0.69.1':
-    resolution: {integrity: sha512-sUy1QQX24Zl2ME7P3nqxY6ctc3kiot6Gg5f2wbsK6ChiwAjqEt9iPKM0AvrGKUdUJJBkX1G5fMx/RRSh8S6Ung==}
+  '@arrirpc/codegen-swift@0.69.2':
+    resolution: {integrity: sha512-lfRr5Jqhv19Gi9lIgZoefRnQG3+Uc4ZCy+oN69khO/sPXuTwE5Qy0MXXgOF5muaXcvFDDRz9gTiTXFDeqWxB/A==}
 
-  '@arrirpc/codegen-ts@0.69.1':
-    resolution: {integrity: sha512-vn3I+LicMrfx6Dfcia3Ituz8Q5bbpM0LgQmrqgAofChvD8k+8m8Za2/eYINf5o/97TnakdIg36s8kLcDDfDHDg==}
+  '@arrirpc/codegen-ts@0.69.2':
+    resolution: {integrity: sha512-dnNF5o+3jVp4mAvvgWsO/KCipMGZwbEnwvGUSTzn+bjWRmmuQ2ZC3LGybZIiAPktGkTlBn4c+CgkJ/LJgJrtpg==}
 
-  '@arrirpc/codegen-utils@0.69.1':
-    resolution: {integrity: sha512-JJM2j//UvsSJ3UoNuOvKf48EVUo37jw+1Txq6DzS3nAlgDolrd40fKvAO2N6WpSSJpGMpFVR52UfIiAfbCIUjA==}
+  '@arrirpc/codegen-utils@0.69.2':
+    resolution: {integrity: sha512-0+zCQy3GSkaMyim3s8COp6SPd0WZKTxEnTCdI7DmMSx9Y8pFpofz8bXtoszsfbxaLABgjpHbTNIXLgG4YQqHbw==}
 
-  '@arrirpc/eslint-plugin@0.69.1':
-    resolution: {integrity: sha512-MCUsQ0HL4LckSJ070abInbCAbmBDT78iSjpLwRh6e69IBRibkpRLmSSNH5NhYtbysZGVcb4UAnIjUaWFSRcDTg==}
+  '@arrirpc/eslint-plugin@0.69.2':
+    resolution: {integrity: sha512-wVbGG1d0DlTP4v0AeXFLUXxGxVkxbt9/HKS/mdudjkXRZw2X4eWxbPVNztcNpYJwQ3pQ7m4ALNVovjz0gr8VOg==}
     peerDependencies:
       eslint: '>=8.0.0'
 
-  '@arrirpc/schema@0.69.1':
-    resolution: {integrity: sha512-TS5tIF59EFSjqTMNv8Upfj4Xjm/76C/fVB1x5zHv1o3NclTQd9cP6iwECgGyapaOxzQP5H6v5bTFaSdw0aMafQ==}
+  '@arrirpc/schema@0.69.2':
+    resolution: {integrity: sha512-sHbi/oCfhx0T2PLoVZgNhrwZZuE+dESFSE9iLL7j0TCYPzBTobRR7AwIGgruvumOOek9vH7/dYC/u2cqLj8j4Q==}
 
-  '@arrirpc/server@0.69.1':
-    resolution: {integrity: sha512-/oyjmTlWSBhfuSfO2QHSrFDK3+XOYZW7Np4cxrZweGOnFsxxsDU+yTt5QzR6uSV6MWGvPkifPZTdpSvi4r2ipA==}
+  '@arrirpc/server@0.69.2':
+    resolution: {integrity: sha512-DvhUjKCHv9hcbIQv/Vi774AP1nskR59KGFhVwrAoMgnJIqkWIImx9oIHD3Ajy0o6gUMnpRjlKsv09TjB0VHzTQ==}
 
   '@esbuild/aix-ppc64@0.24.0':
     resolution: {integrity: sha512-WtKdFM7ls47zkKHFVzMz8opM7LkcsIp9amDUBIAWirg70RM71WRSjdILPsY5Uv1D42ZpUfaPILDlfactHgsRkw==}
@@ -228,12 +228,12 @@ packages:
     resolution: {integrity: sha512-CCZCDJuduB9OUkFkY2IgppNZMi2lBQgD2qzwXkEia16cge2pijY/aXi96CJMquDMn3nJdlPV1A5KrJEXwfLNzQ==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
-  '@eslint/config-array@0.19.0':
-    resolution: {integrity: sha512-zdHg2FPIFNKPdcHWtiNT+jEFCHYVplAXRDlQDyqy0zGx/q2parwh7brGJSiTxRk/TSMkbM//zt/f5CHgyTyaSQ==}
+  '@eslint/config-array@0.19.1':
+    resolution: {integrity: sha512-fo6Mtm5mWyKjA/Chy1BYTdn5mGJoDNjC7C64ug20ADsRDGrA85bN3uK3MaKbeRkRuuIEAR5N33Jr1pbm411/PA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@eslint/core@0.9.0':
-    resolution: {integrity: sha512-7ATR9F0e4W85D/0w7cU0SNj7qkAexMG+bAHEZOjo9akvGuhHE2m7umzWzfnpa0XAg5Kxc1BWmtPMV67jJ+9VUg==}
+  '@eslint/core@0.9.1':
+    resolution: {integrity: sha512-GuUdqkyyzQI5RMIWkHhvTWLCyLo1jNK3vzkSyaExH5kHPDHcuL2VOpHjmMY+y3+NC69qAKToBqldTBgYeLSr9Q==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/eslintrc@3.2.0':
@@ -244,12 +244,12 @@ packages:
     resolution: {integrity: sha512-tw2HxzQkrbeuvyj1tG2Yqq+0H9wGoI2IMk4EOsQeX+vmd75FtJAzf+gTA69WF+baUKRYQ3x2kbLE08js5OsTVg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@eslint/object-schema@2.1.4':
-    resolution: {integrity: sha512-BsWiH1yFGjXXS2yvrf5LyuoSIIbPrGUWob917o+BTKuZ7qJdxX8aJLRxs1fS9n6r7vESrq1OUqb68dANcFXuQQ==}
+  '@eslint/object-schema@2.1.5':
+    resolution: {integrity: sha512-o0bhxnL89h5Bae5T318nFoFzGy+YE5i/gGkoPAgkmTVdRKTiv3p8JHevPiPaMwoloKfEiiaHlawCqaZMqRm+XQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@eslint/plugin-kit@0.2.3':
-    resolution: {integrity: sha512-2b/g5hRmpbb1o4GnTZax9N9m0FXzz9OV42ZzI4rDDMDuHUqigAiQCEWChBWCY4ztAGVRjoWT19v0yMmc5/L5kA==}
+  '@eslint/plugin-kit@0.2.4':
+    resolution: {integrity: sha512-zSkKow6H5Kdm0ZUQUB2kV5JIXqoG0+uH5YADhaEHswm664N9Db8dXSi0nMJpacpMf+MyyglF1vnZohpEg5yUtg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@humanfs/core@0.19.1':
@@ -482,8 +482,8 @@ packages:
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
-  arri@0.69.1:
-    resolution: {integrity: sha512-iVV1nvP17HlqsSPOHp81m+uYe9zYM1sSFJTGkfHHsDomnKwv2f3IDQpF6fy7X48pgIGWvwXwzafXulBbdsxGQA==}
+  arri@0.69.2:
+    resolution: {integrity: sha512-INQAV8Rn/HeVN4bVrdzI0n7oBakSLuc59G89mLhzfIHYtMhls05kWK/TofCqyrYoyC3eflGOfl8CcgmdVYce6w==}
     hasBin: true
 
   balanced-match@1.0.2:
@@ -560,8 +560,8 @@ packages:
   crossws@0.3.1:
     resolution: {integrity: sha512-HsZgeVYaG+b5zA+9PbIPGq4+J/CJynJuearykPsXx4V/eMhyQ5EDVg3Ak2FBZtVXCiOLu/U7IiwDHTr9MA+IKw==}
 
-  debug@4.3.7:
-    resolution: {integrity: sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==}
+  debug@4.4.0:
+    resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -813,8 +813,8 @@ packages:
   json-stable-stringify-without-jsonify@1.0.1:
     resolution: {integrity: sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==}
 
-  jtd-utils@0.69.1:
-    resolution: {integrity: sha512-78F8OaEJS/OZtJdX96eSa9elAVsVKa4+wDF+yQbF53uhmzPdueKq1N6cbE48yyvL5yoDtHJ8rgW3gHBQLc9f3A==}
+  jtd-utils@0.69.2:
+    resolution: {integrity: sha512-5un//dASHfPbcKP0ajTY0QaCM6YkhBtdS2GXlVSlPS/fg2vo3iUZA1Sff4kCn9FqcWDYFEJ2iMFahKBjktPE4w==}
 
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
@@ -1132,53 +1132,53 @@ packages:
 
 snapshots:
 
-  '@arrirpc/codegen-dart@0.69.1':
+  '@arrirpc/codegen-dart@0.69.2':
     dependencies:
-      '@arrirpc/codegen-utils': 0.69.1
+      '@arrirpc/codegen-utils': 0.69.2
       pathe: 1.1.2
 
-  '@arrirpc/codegen-kotlin@0.69.1':
+  '@arrirpc/codegen-kotlin@0.69.2':
     dependencies:
-      '@arrirpc/codegen-utils': 0.69.1
+      '@arrirpc/codegen-utils': 0.69.2
 
-  '@arrirpc/codegen-rust@0.69.1':
+  '@arrirpc/codegen-rust@0.69.2':
     dependencies:
-      '@arrirpc/codegen-utils': 0.69.1
+      '@arrirpc/codegen-utils': 0.69.2
       pathe: 1.1.2
 
-  '@arrirpc/codegen-swift@0.69.1':
+  '@arrirpc/codegen-swift@0.69.2':
     dependencies:
-      '@arrirpc/codegen-utils': 0.69.1
+      '@arrirpc/codegen-utils': 0.69.2
 
-  '@arrirpc/codegen-ts@0.69.1':
+  '@arrirpc/codegen-ts@0.69.2':
     dependencies:
-      '@arrirpc/codegen-utils': 0.69.1
+      '@arrirpc/codegen-utils': 0.69.2
       prettier: 3.4.2
 
-  '@arrirpc/codegen-utils@0.69.1':
+  '@arrirpc/codegen-utils@0.69.2':
     dependencies:
-      jtd-utils: 0.69.1
+      jtd-utils: 0.69.2
       scule: 1.3.0
 
-  '@arrirpc/eslint-plugin@0.69.1(eslint@9.16.0(jiti@2.4.1))':
+  '@arrirpc/eslint-plugin@0.69.2(eslint@9.16.0(jiti@2.4.1))':
     dependencies:
       eslint: 9.16.0(jiti@2.4.1)
 
-  '@arrirpc/schema@0.69.1':
+  '@arrirpc/schema@0.69.2':
     dependencies:
-      jtd-utils: 0.69.1
+      jtd-utils: 0.69.2
       scule: 1.3.0
       uncrypto: 0.1.3
 
-  '@arrirpc/server@0.69.1':
+  '@arrirpc/server@0.69.2':
     dependencies:
-      '@arrirpc/codegen-dart': 0.69.1
-      '@arrirpc/codegen-kotlin': 0.69.1
-      '@arrirpc/codegen-ts': 0.69.1
-      '@arrirpc/codegen-utils': 0.69.1
-      '@arrirpc/schema': 0.69.1
+      '@arrirpc/codegen-dart': 0.69.2
+      '@arrirpc/codegen-kotlin': 0.69.2
+      '@arrirpc/codegen-ts': 0.69.2
+      '@arrirpc/codegen-utils': 0.69.2
+      '@arrirpc/schema': 0.69.2
       '@types/source-map-support': 0.5.10
-      arri: 0.69.1
+      arri: 0.69.2
       crossws: 0.3.1
       h3: 1.13.0
       scule: 1.3.0
@@ -1266,20 +1266,22 @@ snapshots:
 
   '@eslint-community/regexpp@4.12.1': {}
 
-  '@eslint/config-array@0.19.0':
+  '@eslint/config-array@0.19.1':
     dependencies:
-      '@eslint/object-schema': 2.1.4
-      debug: 4.3.7
+      '@eslint/object-schema': 2.1.5
+      debug: 4.4.0
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
 
-  '@eslint/core@0.9.0': {}
+  '@eslint/core@0.9.1':
+    dependencies:
+      '@types/json-schema': 7.0.15
 
   '@eslint/eslintrc@3.2.0':
     dependencies:
       ajv: 6.12.6
-      debug: 4.3.7
+      debug: 4.4.0
       espree: 10.3.0
       globals: 14.0.0
       ignore: 5.3.2
@@ -1292,9 +1294,9 @@ snapshots:
 
   '@eslint/js@9.16.0': {}
 
-  '@eslint/object-schema@2.1.4': {}
+  '@eslint/object-schema@2.1.5': {}
 
-  '@eslint/plugin-kit@0.2.3':
+  '@eslint/plugin-kit@0.2.4':
     dependencies:
       levn: 0.4.1
 
@@ -1447,7 +1449,7 @@ snapshots:
       '@typescript-eslint/types': 8.17.0
       '@typescript-eslint/typescript-estree': 8.17.0(typescript@5.7.2)
       '@typescript-eslint/visitor-keys': 8.17.0
-      debug: 4.3.7
+      debug: 4.4.0
       eslint: 9.16.0(jiti@2.4.1)
     optionalDependencies:
       typescript: 5.7.2
@@ -1463,7 +1465,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 8.17.0(typescript@5.7.2)
       '@typescript-eslint/utils': 8.17.0(eslint@9.16.0(jiti@2.4.1))(typescript@5.7.2)
-      debug: 4.3.7
+      debug: 4.4.0
       eslint: 9.16.0(jiti@2.4.1)
       ts-api-utils: 1.4.3(typescript@5.7.2)
     optionalDependencies:
@@ -1477,7 +1479,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.17.0
       '@typescript-eslint/visitor-keys': 8.17.0
-      debug: 4.3.7
+      debug: 4.4.0
       fast-glob: 3.3.2
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -1528,15 +1530,15 @@ snapshots:
 
   argparse@2.0.1: {}
 
-  arri@0.69.1:
+  arri@0.69.2:
     dependencies:
-      '@arrirpc/codegen-dart': 0.69.1
-      '@arrirpc/codegen-kotlin': 0.69.1
-      '@arrirpc/codegen-rust': 0.69.1
-      '@arrirpc/codegen-swift': 0.69.1
-      '@arrirpc/codegen-ts': 0.69.1
-      '@arrirpc/codegen-utils': 0.69.1
-      '@arrirpc/schema': 0.69.1
+      '@arrirpc/codegen-dart': 0.69.2
+      '@arrirpc/codegen-kotlin': 0.69.2
+      '@arrirpc/codegen-rust': 0.69.2
+      '@arrirpc/codegen-swift': 0.69.2
+      '@arrirpc/codegen-ts': 0.69.2
+      '@arrirpc/codegen-utils': 0.69.2
+      '@arrirpc/schema': 0.69.2
       '@joshmossas/listhen': 1.11.1
       c12: 2.0.1
       chokidar: 4.0.1
@@ -1633,7 +1635,7 @@ snapshots:
     dependencies:
       uncrypto: 0.1.3
 
-  debug@4.3.7:
+  debug@4.4.0:
     dependencies:
       ms: 2.1.3
 
@@ -1704,11 +1706,11 @@ snapshots:
     dependencies:
       '@eslint-community/eslint-utils': 4.4.1(eslint@9.16.0(jiti@2.4.1))
       '@eslint-community/regexpp': 4.12.1
-      '@eslint/config-array': 0.19.0
-      '@eslint/core': 0.9.0
+      '@eslint/config-array': 0.19.1
+      '@eslint/core': 0.9.1
       '@eslint/eslintrc': 3.2.0
       '@eslint/js': 9.16.0
-      '@eslint/plugin-kit': 0.2.3
+      '@eslint/plugin-kit': 0.2.4
       '@humanfs/node': 0.16.6
       '@humanwhocodes/module-importer': 1.0.1
       '@humanwhocodes/retry': 0.4.1
@@ -1717,7 +1719,7 @@ snapshots:
       ajv: 6.12.6
       chalk: 4.1.2
       cross-spawn: 7.0.6
-      debug: 4.3.7
+      debug: 4.4.0
       escape-string-regexp: 4.0.0
       eslint-scope: 8.2.0
       eslint-visitor-keys: 4.2.0
@@ -1917,7 +1919,7 @@ snapshots:
 
   json-stable-stringify-without-jsonify@1.0.1: {}
 
-  jtd-utils@0.69.1: {}
+  jtd-utils@0.69.2: {}
 
   keyv@4.5.4:
     dependencies:
