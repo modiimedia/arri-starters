@@ -13,7 +13,7 @@ interface Options {
 export default defineGeneratorPlugin((options: Options) => {
     return {
         options,
-        generator: async (def, isDevServer) => {
+        run: async (def, isDevServer) => {
             // generate something using the app definition and the specified options
         },
     };
