@@ -11,15 +11,16 @@ import (
 func main() {
 	app := arri.NewApp(
 		http.DefaultServeMux,
-		arri.AppOptions[RpcContext]{
-			OnRequest: func(r *http.Request, c *RpcContext) arri.RpcError {
+		arri.AppOptions[RpcEvent]{
+			OnRequest: func(r *http.Request, c *RpcEvent) arri.RpcError {
 				r.Header.Set("Access-Control-Allow-Origin", "*")
 				return nil
 			},
 		},
-		// create the RpcContext using the incoming response writer and http request
-		func(w http.ResponseWriter, r *http.Request) (*RpcContext, arri.RpcError) {
-			return &RpcContext{w: w, r: r}, nil
+		// initialize an RpcEvent using the incoming response writer and http request
+		// you can extend RpcEvent in ./rpc_event.go
+		func(w http.ResponseWriter, r *http.Request) (*RpcEvent, arri.RpcError) {
+			return &RpcEvent{w: w, r: r}, nil
 		},
 	)
 
@@ -41,10 +42,10 @@ type GreetingResponse struct {
 	Message string
 }
 
-func SayHello(params GreetingParams, context RpcContext) (GreetingResponse, arri.RpcError) {
+func SayHello(params GreetingParams, event RpcEvent) (GreetingResponse, arri.RpcError) {
 	return GreetingResponse{Message: fmt.Sprintf("Hello %s", params.Name)}, nil
 }
 
-func SayGoodbye(params GreetingParams, context RpcContext) (GreetingResponse, arri.RpcError) {
+func SayGoodbye(params GreetingParams, event RpcEvent) (GreetingResponse, arri.RpcError) {
 	return GreetingResponse{Message: fmt.Sprintf("Goodbye %s", params.Name)}, nil
 }
