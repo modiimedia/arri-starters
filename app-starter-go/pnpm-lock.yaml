@@ -9,34 +9,34 @@ importers:
   .:
     devDependencies:
       arri:
-        specifier: ^0.71.0
-        version: 0.71.0
+        specifier: 0.72.0
+        version: 0.72.0
 
 packages:
 
-  '@arrirpc/codegen-dart@0.71.0':
-    resolution: {integrity: sha512-3HTr0r7D8M1/73WC9flk1IqmeWPsRcMA9orWLp09bwPX+iJt+g2l8PEjJg09TnDpi8G9Dx7Um+P6BStJM6FGoA==}
+  '@arrirpc/codegen-dart@0.72.0':
+    resolution: {integrity: sha512-VokPL9QjKh3J5n1butlC/ubXyBmqy7Rw/SE0XYanOSIKE15E1JYvwC0x4Ppcmq79ZCFo4uxfqXbZk7ZHaSdKMQ==}
 
-  '@arrirpc/codegen-kotlin@0.71.0':
-    resolution: {integrity: sha512-ow4Rrgd/gWrOa1vKZjKT/uR8Xh+LjiWmkQ1pOHqGxRbymoLtbLL8ti6F0Zg6sgP8rQbvJUUmV6kxzB0WmaNeMA==}
+  '@arrirpc/codegen-kotlin@0.72.0':
+    resolution: {integrity: sha512-X4PE2vjq6AdIT9w2MMCwNcNTRk8aUEP27Cz27OJ1j9YrLxHckaLObCHEoL1f59n+jXNTNZkOd4lccEOk6rAO0A==}
 
-  '@arrirpc/codegen-rust@0.71.0':
-    resolution: {integrity: sha512-uRSgy7AG9hepFs1fdcX+1/UNEpibMXfxtLtsPHw1iAeGb0fqzGYpf6Rems0eaaDnd033N+5ECWSFllKgpfLrTg==}
+  '@arrirpc/codegen-rust@0.72.0':
+    resolution: {integrity: sha512-/3fdGNmGmvfeWuY45DyA5knEVCv3OlFEy2E+slyqpR4Fqhn40C36jMKskN1La+KEhLqJ8Yi864uJ4SgdN2no8A==}
 
-  '@arrirpc/codegen-swift@0.71.0':
-    resolution: {integrity: sha512-3g343+97DqkKisCpJ11aANk0Hu51Gs06qc28PLHmOpRH3LAtiIWcTW97Zm9BZqnTxLLyNAxOhM8xT10eyLHq3Q==}
+  '@arrirpc/codegen-swift@0.72.0':
+    resolution: {integrity: sha512-xVpCjvtF7srO65deXrQr9Rp3ZjH3LL6qKk32ADyjc0aPRV0Oydo+7lrftd17vIBLl+R1dJdJz22jsYqKG1lb+g==}
 
-  '@arrirpc/codegen-ts@0.71.0':
-    resolution: {integrity: sha512-z1rvpnP67wzeumCLYRaxvN4G8FukPhZ7U99pkJVX4kYWqNyKB032atHlKl0IXbEcWbUPuRDAlootqJGxtVYjcw==}
+  '@arrirpc/codegen-ts@0.72.0':
+    resolution: {integrity: sha512-U4Op8rwPZdymjjvH4Q9w9cLXJpckgX42wl2eAgus3Cd4veA8CtSWx2jfSeY2Hm6VQs01nLo606i0/uGtEyJi7A==}
 
-  '@arrirpc/codegen-utils@0.71.0':
-    resolution: {integrity: sha512-foY9jXBJ6XTKuSXY8i4r1JR3UFT0/o5TILcsgvkaVzIeFXc+pERZxe+rt8kgXOZbKJgLYzf4k9xAIL6DT9SNQw==}
+  '@arrirpc/codegen-utils@0.72.0':
+    resolution: {integrity: sha512-9nJMnQdRYaIeS1Kl4FDmUPUdG0z/EldRVRaERhm0dLd1xTZcD6NUJj4laV7MXJVScLsoe1X7Nq0YmXv5RYgZoQ==}
 
-  '@arrirpc/schema@0.71.0':
-    resolution: {integrity: sha512-rDcVBi0uWwEXP7fvvP36lh1R62rMgbQTUJsc3KAHuBZe28HnTfu96QQ/L4bdAZ5T+Gj2mrsHEjHuV8ZVoOvHqg==}
+  '@arrirpc/schema@0.72.0':
+    resolution: {integrity: sha512-H6Cub1RySD/69zObZ3fOqAgNHniXQ7sSZ4kXwo9nNqtgHy/kr1guqS5lh0OTHL5/xYF8oX8WOK9QcQvtTyuSsg==}
 
-  '@arrirpc/type-defs@0.71.0':
-    resolution: {integrity: sha512-zvt12Bd0Hhu35Pg/1ZRDPPgI8Xg4bO88s7tGcCXjR76GyWqHv0Gr/yWEGmfScWSWCFGt8uWWgg5OlFooKZu5Sw==}
+  '@arrirpc/type-defs@0.72.0':
+    resolution: {integrity: sha512-pBfy21Tx0fvnga2EDMyrYo4AaX2bXH+Iy/6xM7ToSA0UCwyZaZBWL0Cu1hon93ydMPMmF8u0KTmyapVSACcihA==}
 
   '@esbuild/aix-ppc64@0.24.2':
     resolution: {integrity: sha512-thpVCb/rhxE/BnMLQ7GReQLLN8q9qbHmI55F4489/ByVg2aQaQ6kbcLb6FHkocZzQhxc4gx0sCk0tJkKBFzDhA==}
@@ -312,8 +312,8 @@ packages:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
 
-  arri@0.71.0:
-    resolution: {integrity: sha512-SXXckHkDLHQaQwfY5YdrEtVWsDFCEH1Vx6sxCRsKtGo9YdBqxjiAFhtdOLKfCpkELpNjsaj5SgXpeHjciQCvnA==}
+  arri@0.72.0:
+    resolution: {integrity: sha512-Twp07TRZ6imDlADq00nBJHlMgx1jrbZrJVH3XTrB951KLf9RxjzGGK6f8R3VrY/m7Y6VAMhOtQKd/UaKuzXHvw==}
     hasBin: true
 
   braces@3.0.3:
@@ -346,8 +346,8 @@ packages:
   confbox@0.1.8:
     resolution: {integrity: sha512-RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==}
 
-  consola@3.3.3:
-    resolution: {integrity: sha512-Qil5KwghMzlqd51UXM0b6fyaGHtOC22scxrwrz4A2882LyUMwQjnvaedN1HAeXzphspQ6CpHkzMAWxBTUruDLg==}
+  consola@3.4.0:
+    resolution: {integrity: sha512-EiPU8G6dQG0GFHNR8ljnZFki/8a+cQwEQ+7wpxdChl02Q8HXlwEZWD5lqAF8vC2sEC3Tehr8hy7vErz88LHyUA==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   cookie-es@1.2.2:
@@ -529,8 +529,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  mlly@1.7.3:
-    resolution: {integrity: sha512-xUsx5n/mN0uQf4V548PKQ+YShA4/IW0KI1dZhrNrPCLG+xizETbHTkOa1f8/xut9JRPp8kQuMnz0oqwkTiLo/A==}
+  mlly@1.7.4:
+    resolution: {integrity: sha512-qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==}
 
   node-addon-api@7.1.1:
     resolution: {integrity: sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==}
@@ -576,8 +576,8 @@ packages:
   pathe@1.1.2:
     resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
 
-  pathe@2.0.1:
-    resolution: {integrity: sha512-6jpjMpOth5S9ITVu5clZ7NOgHNsv5vRQdheL9ztp2vZmM6fRbLvyua1tiBIL4lk8SAe3ARzeXEly6siXCjDHDw==}
+  pathe@2.0.2:
+    resolution: {integrity: sha512-15Ztpk+nov8DR524R4BF7uEuzESgzUEAV4Ah7CUMNGXdE5ELuvxElxGXndBl32vMSsWa1jpNf22Z+Er3sKwq+w==}
 
   perfect-debounce@1.0.0:
     resolution: {integrity: sha512-xCy9V055GLEqoFaHoC1SoLIaLmWctgCUaBaWxDZ7/Zx4CTyX7cJQLJOok/orfjZAh9kEYpjJa4d0KcJmCbctZA==}
@@ -586,8 +586,8 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  pkg-types@1.3.0:
-    resolution: {integrity: sha512-kS7yWjVFCkIw9hqdJBoMxDdzEngmkr5FXeWZZfQ6GoYacjVnsW6l2CcYW/0ThD0vF4LPJgVYnrg4d0uuhwYQbg==}
+  pkg-types@1.3.1:
+    resolution: {integrity: sha512-/Jm5M4RvtBFVkKWRu2BLUTNP8/M2a+UwuAX+ae4770q1qVGtfjG+WTCupoZixokjmHiry8uI+dlY8KXYV5HVVQ==}
 
   prettier@3.4.2:
     resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
@@ -690,42 +690,42 @@ packages:
 
 snapshots:
 
-  '@arrirpc/codegen-dart@0.71.0':
+  '@arrirpc/codegen-dart@0.72.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.71.0
-      pathe: 2.0.1
+      '@arrirpc/codegen-utils': 0.72.0
+      pathe: 2.0.2
 
-  '@arrirpc/codegen-kotlin@0.71.0':
+  '@arrirpc/codegen-kotlin@0.72.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.71.0
+      '@arrirpc/codegen-utils': 0.72.0
 
-  '@arrirpc/codegen-rust@0.71.0':
+  '@arrirpc/codegen-rust@0.72.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.71.0
-      pathe: 2.0.1
+      '@arrirpc/codegen-utils': 0.72.0
+      pathe: 2.0.2
 
-  '@arrirpc/codegen-swift@0.71.0':
+  '@arrirpc/codegen-swift@0.72.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.71.0
+      '@arrirpc/codegen-utils': 0.72.0
 
-  '@arrirpc/codegen-ts@0.71.0':
+  '@arrirpc/codegen-ts@0.72.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.71.0
+      '@arrirpc/codegen-utils': 0.72.0
       prettier: 3.4.2
 
-  '@arrirpc/codegen-utils@0.71.0':
+  '@arrirpc/codegen-utils@0.72.0':
     dependencies:
-      '@arrirpc/type-defs': 0.71.0
+      '@arrirpc/type-defs': 0.72.0
       scule: 1.3.0
 
-  '@arrirpc/schema@0.71.0':
+  '@arrirpc/schema@0.72.0':
     dependencies:
-      '@arrirpc/type-defs': 0.71.0
+      '@arrirpc/type-defs': 0.72.0
       '@standard-schema/spec': 1.0.0-rc.0
       scule: 1.3.0
       uncrypto: 0.1.3
 
-  '@arrirpc/type-defs@0.71.0':
+  '@arrirpc/type-defs@0.72.0':
     dependencies:
       scule: 1.3.0
 
@@ -810,14 +810,14 @@ snapshots:
       '@parcel/watcher-wasm': 2.5.0
       citty: 0.1.6
       clipboardy: 4.0.0
-      consola: 3.3.3
+      consola: 3.4.0
       crossws: 0.3.1
       defu: 6.1.4
       get-port-please: 3.1.2
       h3: 1.13.1
       http-shutdown: 1.2.2
       jiti: 2.4.2
-      mlly: 1.7.3
+      mlly: 1.7.4
       node-forge: 1.3.1
       pathe: 1.1.2
       std-env: 3.8.0
@@ -912,20 +912,20 @@ snapshots:
 
   ansi-regex@5.0.1: {}
 
-  arri@0.71.0:
+  arri@0.72.0:
     dependencies:
-      '@arrirpc/codegen-dart': 0.71.0
-      '@arrirpc/codegen-kotlin': 0.71.0
-      '@arrirpc/codegen-rust': 0.71.0
-      '@arrirpc/codegen-swift': 0.71.0
-      '@arrirpc/codegen-ts': 0.71.0
-      '@arrirpc/codegen-utils': 0.71.0
-      '@arrirpc/schema': 0.71.0
+      '@arrirpc/codegen-dart': 0.72.0
+      '@arrirpc/codegen-kotlin': 0.72.0
+      '@arrirpc/codegen-rust': 0.72.0
+      '@arrirpc/codegen-swift': 0.72.0
+      '@arrirpc/codegen-ts': 0.72.0
+      '@arrirpc/codegen-utils': 0.72.0
+      '@arrirpc/schema': 0.72.0
       '@joshmossas/listhen': 1.11.1
       c12: 2.0.1
       chokidar: 4.0.3
       citty: 0.1.6
-      consola: 3.3.3
+      consola: 3.4.0
       degit: 2.8.4
       enquirer: 2.4.1
       esbuild: 0.24.2
@@ -933,7 +933,7 @@ snapshots:
       globby: 14.0.2
       h3: 1.13.1
       ofetch: 1.4.1
-      pathe: 2.0.1
+      pathe: 2.0.2
       prettier: 3.4.2
     transitivePeerDependencies:
       - magicast
@@ -950,11 +950,11 @@ snapshots:
       dotenv: 16.4.7
       giget: 1.2.3
       jiti: 2.4.2
-      mlly: 1.7.3
+      mlly: 1.7.4
       ohash: 1.1.4
       pathe: 1.1.2
       perfect-debounce: 1.0.0
-      pkg-types: 1.3.0
+      pkg-types: 1.3.1
       rc9: 2.1.2
 
   chokidar@4.0.3:
@@ -965,7 +965,7 @@ snapshots:
 
   citty@0.1.6:
     dependencies:
-      consola: 3.3.3
+      consola: 3.4.0
 
   clipboardy@4.0.0:
     dependencies:
@@ -975,7 +975,7 @@ snapshots:
 
   confbox@0.1.8: {}
 
-  consola@3.3.3: {}
+  consola@3.4.0: {}
 
   cookie-es@1.2.2: {}
 
@@ -1075,7 +1075,7 @@ snapshots:
   giget@1.2.3:
     dependencies:
       citty: 0.1.6
-      consola: 3.3.3
+      consola: 3.4.0
       defu: 6.1.4
       node-fetch-native: 1.6.4
       nypm: 0.3.12
@@ -1175,11 +1175,11 @@ snapshots:
 
   mkdirp@1.0.4: {}
 
-  mlly@1.7.3:
+  mlly@1.7.4:
     dependencies:
       acorn: 8.14.0
-      pathe: 1.1.2
-      pkg-types: 1.3.0
+      pathe: 2.0.2
+      pkg-types: 1.3.1
       ufo: 1.5.4
 
   node-addon-api@7.1.1: {}
@@ -1195,10 +1195,10 @@ snapshots:
   nypm@0.3.12:
     dependencies:
       citty: 0.1.6
-      consola: 3.3.3
+      consola: 3.4.0
       execa: 8.0.1
       pathe: 1.1.2
-      pkg-types: 1.3.0
+      pkg-types: 1.3.1
       ufo: 1.5.4
 
   ofetch@1.4.1:
@@ -1221,17 +1221,17 @@ snapshots:
 
   pathe@1.1.2: {}
 
-  pathe@2.0.1: {}
+  pathe@2.0.2: {}
 
   perfect-debounce@1.0.0: {}
 
   picomatch@2.3.1: {}
 
-  pkg-types@1.3.0:
+  pkg-types@1.3.1:
     dependencies:
       confbox: 0.1.8
-      mlly: 1.7.3
-      pathe: 1.1.2
+      mlly: 1.7.4
+      pathe: 2.0.2
 
   prettier@3.4.2: {}
 
@@ -1295,7 +1295,7 @@ snapshots:
 
   unenv@1.10.0:
     dependencies:
-      consola: 3.3.3
+      consola: 3.4.0
       defu: 6.1.4
       mime: 3.0.0
       node-fetch-native: 1.6.4
@@ -1306,7 +1306,7 @@ snapshots:
   untun@0.1.3:
     dependencies:
       citty: 0.1.6
-      consola: 3.3.3
+      consola: 3.4.0
       pathe: 1.1.2
 
   uqr@0.1.2: {}
