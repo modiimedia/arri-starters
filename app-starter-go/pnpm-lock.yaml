@@ -9,34 +9,34 @@ importers:
   .:
     devDependencies:
       arri:
-        specifier: 0.73.0
-        version: 0.73.0
+        specifier: 0.74.0
+        version: 0.74.0
 
 packages:
 
-  '@arrirpc/codegen-dart@0.73.0':
-    resolution: {integrity: sha512-qEbvBAuc2zqQaaj5GOaK8oqCFK1n7vr5RUdS0IBUW3wP8TRj3jgqLpRfCUR1ov6QsDcnuVAf/oMajzjlNyFBlg==}
+  '@arrirpc/codegen-dart@0.74.0':
+    resolution: {integrity: sha512-KPoDuR7KhGMhm3mPVW0aP4pAkaQcB2Y6c6kUe1NompuzESBn8fGQGJ30NI9UE4p2gqI2mHKP2lb4b7pBChuuhw==}
 
-  '@arrirpc/codegen-kotlin@0.73.0':
-    resolution: {integrity: sha512-4dnLfF7eKE4X9emv+Ai7l5i14R3txCrZF2Uidfb+lCiGXErJCh2zD6SEn5FnBttdqbCx3lMXFs5yeZyY5122Eg==}
+  '@arrirpc/codegen-kotlin@0.74.0':
+    resolution: {integrity: sha512-i3vx38+2wWNPuAdxAaGT6tQWpOLvV4chdbMD8J8KA2/+vYpLPUfcVPE7yfQBgkpljLCh0nogkq452HVDKzo0CA==}
 
-  '@arrirpc/codegen-rust@0.73.0':
-    resolution: {integrity: sha512-AioAQ0UzDVy9vb5CGxc70dP3JhzJZGmw9yxShSSP8hKLQfDRoe4oBaCDk44lwkK9GAef4hKXRk/VWHWRciHkzw==}
+  '@arrirpc/codegen-rust@0.74.0':
+    resolution: {integrity: sha512-YBF7gfkdKYUZJD7aTplsyufJYiwzfhIQp2p6ZDecj0mgcpnqc6SrA++4TQcl89C13LuF7WCOD8ruYU2x+AdCVA==}
 
-  '@arrirpc/codegen-swift@0.73.0':
-    resolution: {integrity: sha512-ZWwZEz73VtogVCeZRqmFLxmPQQgo9cqxHl1j2j9vcTaiBR6/fS7Efn2No2vkh4G0MKF52NRsFzOd4su6K8h73A==}
+  '@arrirpc/codegen-swift@0.74.0':
+    resolution: {integrity: sha512-KQNPpjxJ3pQCvm1INFCULL1dDVlfTavSxOjNZtSasAIUA2ENszrI/taWhaXv0bLhixrV0CFwt/cU5UKRUyHoCQ==}
 
-  '@arrirpc/codegen-ts@0.73.0':
-    resolution: {integrity: sha512-0tz+rSAIz5HdGopfrPJ0RppARy9mevlCr4xPboU7iz5SROAz89O7udNXPyNR7ZmlWInn/P6rQFBlCrvvG7eBHw==}
+  '@arrirpc/codegen-ts@0.74.0':
+    resolution: {integrity: sha512-wgsfo00TzOK1eKyAi+yKlBmSDhLBMl4wVFoUlXIF7F1qYf6vsJGTmwusJoWYjqxQGbbqHz2q3vctEw9nbFePyQ==}
 
-  '@arrirpc/codegen-utils@0.73.0':
-    resolution: {integrity: sha512-AuwOoQldFz4MznCEk3rWmuY2UBBTy3hzB0KzkG3lmN42lriS8wq7zH7JhEwWrjl2dNX4OUNpKXo7zgTMqOV2QA==}
+  '@arrirpc/codegen-utils@0.74.0':
+    resolution: {integrity: sha512-t6Sg5k4kjpBfIjoPgzaMUG2KtyYtzmf/pjbjGFQiF3L+qaKGxDl53GGpjM011bRHkIAdn2G/Pd+YSmmwT+0rXQ==}
 
-  '@arrirpc/schema@0.73.0':
-    resolution: {integrity: sha512-5TsMAIrxDs41iuifGroky1yD7p/NxqHnd4mWPSztjf1Kz/nrqzu6M4Ps1bq92i+AWpoH0V7yWl7DYQCjsu/h3Q==}
+  '@arrirpc/schema@0.74.0':
+    resolution: {integrity: sha512-LPbFTMygsWqr/p3HzEPt9zvBg2PxFCh1+hCfeRv+qc3LnKXufOhR1bhtTmzlx1ckCH7/rKgUYX3CSqUQcX/jTQ==}
 
-  '@arrirpc/type-defs@0.73.0':
-    resolution: {integrity: sha512-Vn83jcFfllZVkMW4l/tM/XKjeuUGwmr5EJtunujcRm5lZ8mghCqiO/5oZnmrbXRJ4o3ld4fURdmHh8gz6JlYcw==}
+  '@arrirpc/type-defs@0.74.0':
+    resolution: {integrity: sha512-qpglG/T5sDgFpMikUDo722mL5vwGyQRHon9nhqsIVWP9ZA//2QQ8uxjHruW5yAvOc4le03oGhKm4TqitiP0f5g==}
 
   '@esbuild/aix-ppc64@0.24.2':
     resolution: {integrity: sha512-thpVCb/rhxE/BnMLQ7GReQLLN8q9qbHmI55F4489/ByVg2aQaQ6kbcLb6FHkocZzQhxc4gx0sCk0tJkKBFzDhA==}
@@ -296,8 +296,8 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@standard-schema/spec@1.0.0-rc.0':
-    resolution: {integrity: sha512-DcY/ICFcZIESNTLTexIT108HOqd1FtxsiLV4ZYGluySWyjF6TZ6troNyXjiqoHU6j0wN3A6SmYnTA5CHQp9blw==}
+  '@standard-schema/spec@1.0.0':
+    resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
 
   acorn@8.14.0:
     resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
@@ -312,8 +312,8 @@ packages:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
 
-  arri@0.73.0:
-    resolution: {integrity: sha512-vOnclElHksRTl4cL5tPDoi/gE0DK7rtLHUNozM5cufuwZFYbDbf/AbJemgUFRi/bjkeP36fpJELYMOM8mG8meQ==}
+  arri@0.74.0:
+    resolution: {integrity: sha512-8VVxyc4vCHlFMwpef7plalWFycjPN3mq2QC/OOLaLTYpZN9KIG8L6AblZYlOzLHd0ntMlD63zssnzF4j1o39Zw==}
     hasBin: true
 
   braces@3.0.3:
@@ -418,8 +418,8 @@ packages:
     resolution: {integrity: sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA==}
     engines: {node: '>=16'}
 
-  giget@1.2.3:
-    resolution: {integrity: sha512-8EHPljDvs7qKykr6uw8b+lqLiUc/vUg+KVTI0uND4s63TdsZM2Xus3mflvF0DDG9SiM4RlCkFGL+7aAjRmV7KA==}
+  giget@1.2.4:
+    resolution: {integrity: sha512-Wv+daGyispVoA31TrWAVR+aAdP7roubTPEM/8JzRnqXhLbdJH0T9eQyXVFF8fjk3WKTsctII6QcyxILYgNp2DA==}
     hasBin: true
 
   glob-parent@5.1.2:
@@ -546,8 +546,8 @@ packages:
     resolution: {integrity: sha512-ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  nypm@0.3.12:
-    resolution: {integrity: sha512-D3pzNDWIvgA+7IORhD/IuWzEk4uXv6GsgOxiid4UU3h9oq5IqV1KtPDi63n4sZJ/xcWlr88c0QM2RgN5VbOhFA==}
+  nypm@0.5.2:
+    resolution: {integrity: sha512-AHzvnyUJYSrrphPhRWWZNcoZfArGNp3Vrc4pm/ZurO74tYNTgAPrEyBQEKy+qioqmWlPXwvMZCG2wOaHlPG0Pw==}
     engines: {node: ^14.16.0 || >=16.10.0}
     hasBin: true
 
@@ -656,6 +656,9 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
+  tinyexec@0.3.2:
+    resolution: {integrity: sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==}
+
   to-regex-range@5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
@@ -690,42 +693,42 @@ packages:
 
 snapshots:
 
-  '@arrirpc/codegen-dart@0.73.0':
+  '@arrirpc/codegen-dart@0.74.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.73.0
+      '@arrirpc/codegen-utils': 0.74.0
       pathe: 2.0.2
 
-  '@arrirpc/codegen-kotlin@0.73.0':
+  '@arrirpc/codegen-kotlin@0.74.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.73.0
+      '@arrirpc/codegen-utils': 0.74.0
 
-  '@arrirpc/codegen-rust@0.73.0':
+  '@arrirpc/codegen-rust@0.74.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.73.0
+      '@arrirpc/codegen-utils': 0.74.0
       pathe: 2.0.2
 
-  '@arrirpc/codegen-swift@0.73.0':
+  '@arrirpc/codegen-swift@0.74.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.73.0
+      '@arrirpc/codegen-utils': 0.74.0
 
-  '@arrirpc/codegen-ts@0.73.0':
+  '@arrirpc/codegen-ts@0.74.0':
     dependencies:
-      '@arrirpc/codegen-utils': 0.73.0
+      '@arrirpc/codegen-utils': 0.74.0
       prettier: 3.4.2
 
-  '@arrirpc/codegen-utils@0.73.0':
+  '@arrirpc/codegen-utils@0.74.0':
     dependencies:
-      '@arrirpc/type-defs': 0.73.0
+      '@arrirpc/type-defs': 0.74.0
       scule: 1.3.0
 
-  '@arrirpc/schema@0.73.0':
+  '@arrirpc/schema@0.74.0':
     dependencies:
-      '@arrirpc/type-defs': 0.73.0
-      '@standard-schema/spec': 1.0.0-rc.0
+      '@arrirpc/type-defs': 0.74.0
+      '@standard-schema/spec': 1.0.0
       scule: 1.3.0
       uncrypto: 0.1.3
 
-  '@arrirpc/type-defs@0.73.0':
+  '@arrirpc/type-defs@0.74.0':
     dependencies:
       scule: 1.3.0
 
@@ -904,7 +907,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@standard-schema/spec@1.0.0-rc.0': {}
+  '@standard-schema/spec@1.0.0': {}
 
   acorn@8.14.0: {}
 
@@ -912,15 +915,15 @@ snapshots:
 
   ansi-regex@5.0.1: {}
 
-  arri@0.73.0:
+  arri@0.74.0:
     dependencies:
-      '@arrirpc/codegen-dart': 0.73.0
-      '@arrirpc/codegen-kotlin': 0.73.0
-      '@arrirpc/codegen-rust': 0.73.0
-      '@arrirpc/codegen-swift': 0.73.0
-      '@arrirpc/codegen-ts': 0.73.0
-      '@arrirpc/codegen-utils': 0.73.0
-      '@arrirpc/schema': 0.73.0
+      '@arrirpc/codegen-dart': 0.74.0
+      '@arrirpc/codegen-kotlin': 0.74.0
+      '@arrirpc/codegen-rust': 0.74.0
+      '@arrirpc/codegen-swift': 0.74.0
+      '@arrirpc/codegen-ts': 0.74.0
+      '@arrirpc/codegen-utils': 0.74.0
+      '@arrirpc/schema': 0.74.0
       '@joshmossas/listhen': 1.11.1
       c12: 2.0.1
       chokidar: 4.0.3
@@ -948,7 +951,7 @@ snapshots:
       confbox: 0.1.8
       defu: 6.1.4
       dotenv: 16.4.7
-      giget: 1.2.3
+      giget: 1.2.4
       jiti: 2.4.2
       mlly: 1.7.4
       ohash: 1.1.4
@@ -1072,15 +1075,15 @@ snapshots:
 
   get-stream@8.0.1: {}
 
-  giget@1.2.3:
+  giget@1.2.4:
     dependencies:
       citty: 0.1.6
       consola: 3.4.0
       defu: 6.1.4
       node-fetch-native: 1.6.6
-      nypm: 0.3.12
+      nypm: 0.5.2
       ohash: 1.1.4
-      pathe: 1.1.2
+      pathe: 2.0.2
       tar: 6.2.1
 
   glob-parent@5.1.2:
@@ -1192,13 +1195,13 @@ snapshots:
     dependencies:
       path-key: 4.0.0
 
-  nypm@0.3.12:
+  nypm@0.5.2:
     dependencies:
       citty: 0.1.6
       consola: 3.4.0
-      execa: 8.0.1
-      pathe: 1.1.2
+      pathe: 2.0.2
       pkg-types: 1.3.1
+      tinyexec: 0.3.2
       ufo: 1.5.4
 
   ofetch@1.4.1:
@@ -1284,6 +1287,8 @@ snapshots:
       minizlib: 2.1.2
       mkdirp: 1.0.4
       yallist: 4.0.0
+
+  tinyexec@0.3.2: {}
 
   to-regex-range@5.0.1:
     dependencies:
