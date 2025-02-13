@@ -17,11 +17,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@arrirpc/codegen-utils": "^0.74.1"
+    "@arrirpc/codegen-utils": "^0.75.0"
   },
   "devDependencies": {
-    "@types/node": "^22.13.1",
-    "prettier": "^3.4.2",
+    "@types/node": "^22.13.4",
+    "prettier": "^3.5.1",
     "typescript": "^5.7.3",
     "unbuild": "^3.3.1",
     "vitest": "^3.0.5"
