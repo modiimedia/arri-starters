@@ -17,14 +17,14 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@arrirpc/codegen-utils": "^0.75.0"
+    "@arrirpc/codegen-utils": "^0.76.0"
   },
   "devDependencies": {
-    "@types/node": "^22.13.4",
-    "prettier": "^3.5.1",
+    "@types/node": "^22.13.5",
+    "prettier": "^3.5.2",
     "typescript": "^5.7.3",
     "unbuild": "^3.3.1",
-    "vitest": "^3.0.5"
+    "vitest": "^3.0.6"
   },
   "packageManager": "pnpm@9.12.3"
 }
