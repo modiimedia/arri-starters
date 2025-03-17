@@ -2,7 +2,7 @@ module main
 
 go 1.23.3
 
-require github.com/modiimedia/arri v0.76.3
+require github.com/modiimedia/arri v0.76.4
 
 require (
 	github.com/iancoleman/strcase v0.3.0 // indirect
