@@ -12,8 +12,8 @@ func main() {
 	app := arri.NewApp(
 		http.DefaultServeMux,
 		arri.AppOptions[RpcEvent]{
-			OnRequest: func(r *http.Request, c *RpcEvent) arri.RpcError {
-				r.Header.Set("Access-Control-Allow-Origin", "*")
+			OnRequest: func(c *RpcEvent) arri.RpcError {
+				c.Writer().Header().Set("Access-Control-Allow-Origin", "*")
 				return nil
 			},
 		},
