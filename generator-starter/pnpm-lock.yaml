@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@arrirpc/codegen-utils':
-        specifier: ^0.77.1
-        version: 0.77.1
+        specifier: ^0.78.0
+        version: 0.78.0
     devDependencies:
       '@types/node':
         specifier: ^22.13.14
@@ -30,11 +30,11 @@ importers:
 
 packages:
 
-  '@arrirpc/codegen-utils@0.77.1':
-    resolution: {integrity: sha512-aAlm2RMpn2zr7zVD6Iy4CMaEnfbOEZeTE5dwJKfM43c7IVuHtWa/ueWDK3XooP5bOGMC9qSLoKF+2LmgqSDBnA==}
+  '@arrirpc/codegen-utils@0.78.0':
+    resolution: {integrity: sha512-DvDxDgXbYLClfyF+VysVcP9QaZlfvTUGZOIFq4o3Qxs3tHsccshZHRRMQVNVLVQmozMdDI6/Qeks0Zjb3m2itw==}
 
-  '@arrirpc/type-defs@0.77.1':
-    resolution: {integrity: sha512-w50hAwjUh8zgFcPGw6K21i//SSFGQkPsXY0J+M6hZUc4UsKmHseuKn0aHrXG3H+7rjidn8E/4FsWxbI4y6oTIQ==}
+  '@arrirpc/type-defs@0.78.0':
+    resolution: {integrity: sha512-wHKH8WQ/9iGLPnBuPvmsHFfJfLZjuKrqbSPnOtvsgWdgYUMey2oMjq1aunZ9uVbn5JnzxpcvZuwoOeJBXppszA==}
 
   '@babel/code-frame@7.26.2':
     resolution: {integrity: sha512-RJlIHRueQgwWitWgF8OdFYGZX328Ax5BCemNGlqHfplnRT9ESi8JkFlvaVYbS+UubVY6dpv87Fs2u5M29iNFVQ==}
@@ -1246,12 +1246,12 @@ packages:
 
 snapshots:
 
-  '@arrirpc/codegen-utils@0.77.1':
+  '@arrirpc/codegen-utils@0.78.0':
     dependencies:
-      '@arrirpc/type-defs': 0.77.1
+      '@arrirpc/type-defs': 0.78.0
       scule: 1.3.0
 
-  '@arrirpc/type-defs@0.77.1':
+  '@arrirpc/type-defs@0.78.0':
     dependencies:
       scule: 1.3.0
 

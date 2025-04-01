@@ -17,7 +17,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@arrirpc/codegen-utils": "^0.77.1"
+    "@arrirpc/codegen-utils": "^0.78.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.14",

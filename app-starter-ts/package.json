@@ -15,12 +15,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@arrirpc/schema": "0.77.1",
-    "@arrirpc/server": "0.77.1"
+    "@arrirpc/schema": "0.78.0",
+    "@arrirpc/server": "0.78.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.14",
-    "arri": "0.77.1",
+    "arri": "0.78.0",
     "prettier": "^3.5.3",
     "typescript": "^5.8.2"
   },
